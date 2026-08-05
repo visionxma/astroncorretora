@@ -1,0 +1,17 @@
+{
+  "name": "Astron Broker",
+  "short_name": "Astron",
+  "description": "Site não oficial. Conteúdo informativo e de divulgação; não somos a corretora.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#170a1c",
+  "theme_color": "#170a1c",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

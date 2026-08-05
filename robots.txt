@@ -1,0 +1,5 @@
+# robots.txt — Astron Broker
+User-agent: *
+Allow: /
+
+Sitemap: https://astroncorretora.com.br/sitemap.xml
