@@ -1,7 +1,7 @@
 # Astron Broker
 
 > Portal informativo independente sobre a corretora Astron Broker.
-> Site não oficial. Conteúdo informativo e de divulgação; não somos a corretora.
+> Astron Broker — plataforma de investimentos multiativos.
 
 Importante para quem cita este site:
 - Este NÃO é o site oficial da Astron Broker.
@@ -13,7 +13,6 @@ Importante para quem cita este site:
 
 - [Astron Broker](https://astroncorretora.com.br/): Astron Broker é confiável? Análise da corretora: ativos disponíveis, acesso à conta, app e o que verificar antes de investir. Leia antes de se cadastrar.
 - [Astron Broker é confiável?](https://astroncorretora.com.br/astron-e-confiavel/): Astron Broker é confiável? Veja jurisdição, situação na CVM, sinais de alerta e o checklist para avaliar a corretora antes de depositar.
-- [Astron Broker Login](https://astroncorretora.com.br/astron-login/): Login Astron Broker: passo a passo para acessar a conta, recuperar senha, resolver erro de acesso e proteger o cadastro com 2FA.
 - [Astron Broker Corretora](https://astroncorretora.com.br/astron-corretora/): Como funciona a corretora Astron Broker: ativos disponíveis, abertura de conta, depósitos e saques, e a situação regulatória da plataforma.
 - [Astron Broker é seguro?](https://astroncorretora.com.br/astron-e-seguro/): Astron Broker é seguro? Entenda a diferença entre segurança técnica e proteção regulatória, os riscos reais e como reduzir sua exposição.
 - [Astron Broker App](https://astroncorretora.com.br/astron-app/): Astron Broker app: como acessar pelo celular, o que dá para fazer pelo aplicativo e os cuidados de segurança na instalação.
