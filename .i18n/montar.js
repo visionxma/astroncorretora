@@ -363,6 +363,8 @@ function gerados(h, idioma, chave) {
   // blog em modo claro, com "Astron Blog" no logo do topo (os artigos herdam da casca /blog/)
   if (chave === 'blog') {
     h = h.replace(/<body(?: class="tema-claro")?>/, '<body class="tema-claro">');
+    // logo branca some no topo claro: versão escura só no cabeçalho (o rodapé continua escuro)
+    h = h.replace(/(<header[\s\S]*?)\/assets\/img\/logo-astron(?:-escuro)?\.png/, '$1/assets/img/logo-astron-escuro.png');
     h = h.replace(/<span class="wordmark__text">(?:<span class="wordmark__blog">Blog<\/span>)?<\/span>/, '<span class="wordmark__text"><span class="wordmark__blog">Blog</span></span>');
   }
   if (BANNERS[chave]) h = h.replace(/(<main id="conteudo">[\s\S]*?)(<h1)/, (m, a, b) => `${a.replace(/\s*$/, '\n        ')}<!--gerado--><div class="topo-banner" style="background-image:url('/assets/img/banners/${BANNERS[chave]}.webp')" aria-hidden="true"></div><!--/gerado-->\n        ${b}`);
