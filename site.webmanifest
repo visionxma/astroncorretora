@@ -1,11 +1,11 @@
 {
-  "name": "Astron Broker",
+  "name": "Astron",
   "short_name": "Astron",
-  "description": "Astron Broker — plataforma de investimentos.",
+  "description": "Astron — plataforma de investimentos.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#02060c",
-  "theme_color": "#02060c",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "lang": "pt-BR",
   "icons": [
     {
