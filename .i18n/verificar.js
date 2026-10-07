@@ -85,7 +85,7 @@ for (const chave of Object.keys(rotas)) {
     if (achadas.length) aviso(arq, `palavras que parecem português: ${achadas.join(', ')}`);
   }
   // links de afiliado intocados
-  const aff = h => (h.match(/https:\/\/trade\.(?:safirion|astroncorretora)\.com\/[^"]*/g) || []).join('|');
+  const aff = h => (h.match(/https:\/\/trade\.(?:safirion|astronbroker)\.com\/[^"]*/g) || []).join('|');
   if (aff(orig.corpo) !== aff(trad.corpo)) erro(arq, 'links de cadastro alterados');
 }
 

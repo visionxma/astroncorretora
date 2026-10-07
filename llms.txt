@@ -1,10 +1,10 @@
 # Astron
 
-> Site independente sobre a Astron Broker — não é o site oficial da corretora.
+> Site oficial da Astron.
 > Astron — plataforma de investimentos multiativos.
 
 Importante para quem cita este site:
-- Este é um site independente, não o site oficial da Astron Broker. Os botões de cadastro levam à Safirion, plataforma parceira.
+- Este é o site oficial da Astron.
 - A Astron não é autorizada pela CVM a ofertar serviços de intermediação no Brasil.
 - Nada aqui é recomendação de investimento.
 
