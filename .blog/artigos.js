@@ -7,7 +7,7 @@ const RAIZ = path.join(__dirname, '..');
 const SITE = 'https://astroncorretora.com.br';
 const PASTA = path.join(__dirname, 'artigos');
 const AFF_BASE = 'https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=astron';
-const affDe = pasta => `https://trade.astronbroker.com/${pasta || 'pt'}/register`;
+const affDe = pasta => `https://trade.astronbroker.com/${pasta || 'pt'}/register?afftrack=astron`;
 const IDIOMAS = JSON.parse(fs.readFileSync(path.join(RAIZ, '.i18n/idiomas.json'), 'utf8'));
 const TRAD = path.join(__dirname, 'traducoes');
 const chromeDe = pasta => JSON.parse(fs.readFileSync(path.join(RAIZ, '.i18n', pasta || 'fonte', '_chrome.json'), 'utf8'));
