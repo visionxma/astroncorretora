@@ -549,26 +549,4 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/marca-foxon-ranking.png</image:loc>
 		</image:image>
 	</url>
-	<url>
-		<loc>https://astroncorretora.com.br/sobre/</loc>
-		<lastmod>2026-07-30T10:00:00+00:00</lastmod>
-		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://astroncorretora.com.br/sobre/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://astroncorretora.com.br/en/about/"/>
-		<xhtml:link rel="alternate" hreflang="es" href="https://astroncorretora.com.br/es/sobre/"/>
-		<xhtml:link rel="alternate" hreflang="ar" href="https://astroncorretora.com.br/ar/about/"/>
-		<xhtml:link rel="alternate" hreflang="bn" href="https://astroncorretora.com.br/bn/about-this-site/"/>
-		<xhtml:link rel="alternate" hreflang="de" href="https://astroncorretora.com.br/de/ueber-uns/"/>
-		<xhtml:link rel="alternate" hreflang="fil" href="https://astroncorretora.com.br/fil/tungkol-sa-site/"/>
-		<xhtml:link rel="alternate" hreflang="fr" href="https://astroncorretora.com.br/fr/a-propos/"/>
-		<xhtml:link rel="alternate" hreflang="hi" href="https://astroncorretora.com.br/hi/about/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="https://astroncorretora.com.br/id/tentang/"/>
-		<xhtml:link rel="alternate" hreflang="it" href="https://astroncorretora.com.br/it/chi-siamo/"/>
-		<xhtml:link rel="alternate" hreflang="ru" href="https://astroncorretora.com.br/ru/about/"/>
-		<xhtml:link rel="alternate" hreflang="sv" href="https://astroncorretora.com.br/sv/om-denna-webbplats/"/>
-		<xhtml:link rel="alternate" hreflang="th" href="https://astroncorretora.com.br/th/about/"/>
-		<xhtml:link rel="alternate" hreflang="tr" href="https://astroncorretora.com.br/tr/hakkinda/"/>
-		<xhtml:link rel="alternate" hreflang="vi" href="https://astroncorretora.com.br/vi/ve-trang-nay/"/>
-		<xhtml:link rel="alternate" hreflang="zh-CN" href="https://astroncorretora.com.br/zh/about-us/"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://astroncorretora.com.br/en/about/"/>
-	</url>
 </urlset>

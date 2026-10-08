@@ -23,7 +23,7 @@ const CHROME_PT = JSON.parse(fs.readFileSync(path.join(__dirname, 'fonte/_chrome
 const MENU = [['home', 'inicio'], ['confiavel', 'astron-e-confiavel'], ['login', 'astron-login'],
   ['corretora', 'astron-corretora'], ['seguro', 'astron-e-seguro'], ['app', 'astron-app'],
   ['melhores', 'melhores-corretoras'], ['blog', 'blog']];
-const LINKS_RODAPE = [['faq', 'astron-perguntas-frequentes'], ['sobre', 'sobre'], ['contato', 'contato']];
+const LINKS_RODAPE = [['faq', 'astron-perguntas-frequentes'], ['contato', 'contato']];
 
 const ler = p => fs.readFileSync(p, 'utf8');
 const escAttr = s => s.replace(/&(?!(?:[a-z]+|#\d+);)/g, '&amp;').replace(/"/g, '&quot;');
@@ -351,7 +351,7 @@ ${ATIVOS.map(([n, s, ics]) => `              <li><span class="bq__ic${ics.length
 // Banner no topo de páginas internas (a imagem fica atrás do título; no celular, acima dele).
 const BANNERS = { 'astron-como-abrir-conta': 'como-abrir-conta', 'astron-conta-demo': 'conta-demo', 'astron-saque': 'saque',
   'astron-atendimento': 'atendimento', 'astron-para-iniciantes': 'iniciantes', 'astron-perguntas-frequentes': 'faq',
-  'melhores-corretoras': 'melhores-corretoras', sobre: 'sobre', contato: 'contato' };
+  'melhores-corretoras': 'melhores-corretoras', contato: 'contato' };
 
 // Preenche o que é gerado dentro do <main> (idempotente: limpa antes de preencher).
 function gerados(h, idioma, chave) {
