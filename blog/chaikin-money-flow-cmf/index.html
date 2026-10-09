@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr" data-tema="dark" data-tv="br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ===== SEO principal ===== -->
+  <title>Chaikin Money Flow (CMF): o que é e como medir a pressão compradora | Blog Astron</title>
+  <meta name="description" content="O que é o Chaikin Money Flow, como calcular com cotações e volume reais da Nvidia, como ler acumulação e distribuição e os erros mais comuns.">
+  <link rel="canonical" href="https://astroncorretora.com.br/blog/chaikin-money-flow-cmf/">
+  <!--hreflang-->
+  <link rel="alternate" hreflang="pt-BR" href="https://astroncorretora.com.br/blog/chaikin-money-flow-cmf/">
+  <link rel="alternate" hreflang="x-default" href="https://astroncorretora.com.br/blog/chaikin-money-flow-cmf/">
+  <!--/hreflang-->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Astron">
+  <meta name="keywords" content="blog investimentos, guia corretora, educação financeira, trading para iniciantes">
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Chaikin Money Flow (CMF): o que é e como medir a pressão compradora">
+  <meta property="og:description" content="O que é o Chaikin Money Flow, como calcular com cotações e volume reais da Nvidia, como ler acumulação e distribuição e os erros mais comuns.">
+  <meta property="og:url" content="https://astroncorretora.com.br/blog/chaikin-money-flow-cmf/">
+  <meta property="og:site_name" content="Astron">
+  <meta property="og:image" content="https://astroncorretora.com.br/assets/img/astron-corretora-02.webp">
+  <meta property="og:image:alt" content="Astron — Blog Astron">
+  <meta name="twitter:image" content="https://astroncorretora.com.br/assets/img/astron-corretora-02.webp">
+  <meta property="og:updated_time" content="undefined">
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Chaikin Money Flow (CMF): o que é e como medir a pressão compradora">
+  <meta name="twitter:description" content="O que é o Chaikin Money Flow, como calcular com cotações e volume reais da Nvidia, como ler acumulação e distribuição e os erros mais comuns.">
+  <meta name="twitter:label1" content="Escrito por">
+  <meta name="twitter:data1" content="Astron">
+  <meta name="twitter:label2" content="Tempo de leitura">
+  <meta name="twitter:data2" content="5 minutos">
+  <!-- ===== Ícones e PWA ===== -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1f2026">
+  <!-- ===== Performance ===== -->
+  <link rel="preload" as="font" type="font/woff2"
+        href="/assets/fonts/ibm-plex-sans-latin-var.woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610092051">
+  <!-- ===== Dados estruturados (JSON-LD) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://astroncorretora.com.br/blog/chaikin-money-flow-cmf/#artigo",
+      "headline": "Chaikin Money Flow (CMF): o que é e como medir a pressão compradora",
+      "description": "O que é o Chaikin Money Flow, como calcular com cotações e volume reais da Nvidia, como ler acumulação e distribuição e os erros mais comuns.",
+      "url": "https://astroncorretora.com.br/blog/chaikin-money-flow-cmf/",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-10-09T09:00:00-03:00",
+      "dateModified": "2026-10-09T09:00:00-03:00",
+      "image": "https://astroncorretora.com.br/assets/img/astron-corretora-02.webp",
+      "articleSection": "Indicadores",
+      "author": {
+        "@type": "Organization",
+        "name": "Astron — Redação de Análise",
+        "url": "https://astroncorretora.com.br/blog/"
+      },
+      "publisher": {
+        "@id": "https://astroncorretora.com.br/#organization"
+      },
+      "mainEntityOfPage": "https://astroncorretora.com.br/blog/chaikin-money-flow-cmf/",
+      "isPartOf": {
+        "@id": "https://astroncorretora.com.br/blog/#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://astroncorretora.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://astroncorretora.com.br/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chaikin Money Flow (CMF): o que é e como medir a pressão compradora",
+          "item": "https://astroncorretora.com.br/blog/chaikin-money-flow-cmf/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="tema-claro">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <div class="site-header__left">
+        <a class="site-logo" href="/" aria-label="Astron — página inicial">
+          <span class="wordmark">
+          <img class="wordmark__logo" src="/assets/img/logo-astron-escuro.png" alt="Astron" width="126" height="32" decoding="async">
+          <span class="wordmark__text"><span class="wordmark__blog">Blog</span></span>
+        </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false"
+                aria-controls="menu-principal" aria-label="Abrir menu de navegação"
+                data-abrir="Abrir menu de navegação" data-fechar="Fechar menu de navegação">
+          <span></span>
+        </button>
+        <details class="idioma">
+          <summary aria-label="Escolher idioma"><img class="bandeira" src="/assets/img/bandeiras/pt.svg" alt="" width="22" height="16"><span>pt</span></summary>
+          <ul class="idioma__lista">
+            <li><a href="/blog/chaikin-money-flow-cmf/" hreflang="pt-BR" lang="pt-BR" aria-current="true"><img class="bandeira" src="/assets/img/bandeiras/pt.svg" alt="" width="20" height="15" loading="lazy">Português <small>pt</small></a></li>
+            <li><a href="/en/blog/" hreflang="en" lang="en"><img class="bandeira" src="/assets/img/bandeiras/en.svg" alt="" width="20" height="15" loading="lazy">English <small>en</small></a></li>
+            <li><a href="/es/blog/" hreflang="es" lang="es"><img class="bandeira" src="/assets/img/bandeiras/es.svg" alt="" width="20" height="15" loading="lazy">Español <small>es</small></a></li>
+            <li><a href="/ar/blog/" hreflang="ar" lang="ar"><img class="bandeira" src="/assets/img/bandeiras/ar.svg" alt="" width="20" height="15" loading="lazy">العربية <small>ar</small></a></li>
+            <li><a href="/bn/blog/" hreflang="bn" lang="bn"><img class="bandeira" src="/assets/img/bandeiras/bn.svg" alt="" width="20" height="15" loading="lazy">বাংলা <small>bn</small></a></li>
+            <li><a href="/de/blog/" hreflang="de" lang="de"><img class="bandeira" src="/assets/img/bandeiras/de.svg" alt="" width="20" height="15" loading="lazy">Deutsch <small>de</small></a></li>
+            <li><a href="/fil/blog/" hreflang="fil" lang="fil"><img class="bandeira" src="/assets/img/bandeiras/fil.svg" alt="" width="20" height="15" loading="lazy">Filipino <small>fil</small></a></li>
+            <li><a href="/fr/blog/" hreflang="fr" lang="fr"><img class="bandeira" src="/assets/img/bandeiras/fr.svg" alt="" width="20" height="15" loading="lazy">Français <small>fr</small></a></li>
+            <li><a href="/hi/blog/" hreflang="hi" lang="hi"><img class="bandeira" src="/assets/img/bandeiras/hi.svg" alt="" width="20" height="15" loading="lazy">हिन्दी <small>hi</small></a></li>
+            <li><a href="/id/blog/" hreflang="id" lang="id"><img class="bandeira" src="/assets/img/bandeiras/id.svg" alt="" width="20" height="15" loading="lazy">Bahasa Indonesia <small>id</small></a></li>
+            <li><a href="/it/blog/" hreflang="it" lang="it"><img class="bandeira" src="/assets/img/bandeiras/it.svg" alt="" width="20" height="15" loading="lazy">Italiano <small>it</small></a></li>
+            <li><a href="/ru/blog/" hreflang="ru" lang="ru"><img class="bandeira" src="/assets/img/bandeiras/ru.svg" alt="" width="20" height="15" loading="lazy">Русский <small>ru</small></a></li>
+            <li><a href="/sv/blog/" hreflang="sv" lang="sv"><img class="bandeira" src="/assets/img/bandeiras/sv.svg" alt="" width="20" height="15" loading="lazy">Svenska <small>sv</small></a></li>
+            <li><a href="/th/blog/" hreflang="th" lang="th"><img class="bandeira" src="/assets/img/bandeiras/th.svg" alt="" width="20" height="15" loading="lazy">ไทย <small>th</small></a></li>
+            <li><a href="/tr/blog/" hreflang="tr" lang="tr"><img class="bandeira" src="/assets/img/bandeiras/tr.svg" alt="" width="20" height="15" loading="lazy">Türkçe <small>tr</small></a></li>
+            <li><a href="/vi/blog/" hreflang="vi" lang="vi"><img class="bandeira" src="/assets/img/bandeiras/vi.svg" alt="" width="20" height="15" loading="lazy">Tiếng Việt <small>vi</small></a></li>
+            <li><a href="/zh/blog/" hreflang="zh-CN" lang="zh-CN"><img class="bandeira" src="/assets/img/bandeiras/zh.svg" alt="" width="20" height="15" loading="lazy">简体中文 <small>zh</small></a></li>
+          </ul>
+        </details>
+      </div>
+      <nav class="site-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/astron-e-confiavel/">É confiável?</a></li>
+          <li><a href="/astron-login/">Login</a></li>
+          <li><a href="/astron-corretora/">A corretora</a></li>
+          <li><a href="/astron-e-seguro/">É seguro?</a></li>
+          <li><a href="/astron-app/">Aplicativo</a></li>
+          <li><a href="/melhores-corretoras/">Melhores corretoras</a></li>
+          <li><a href="/blog/" aria-current="page">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <a class="btn btn--primary btn--sm" href="https://trade.astronbroker.com/pt/register?afftrack=astron"
+           target="_blank" rel="noopener sponsored nofollow">Criar conta</a>
+        <a class="btn btn--outline btn--sm" href="/astron-login/">Login</a>
+      </div>
+    </div>
+  </header>
+  <nav class="breadcrumb" aria-label="Trilha de navegação">
+    <div class="container ap__trilha">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><span aria-current="page">Chaikin Money Flow (CMF): o que é e como medir a pressão compradora</span></li>
+      </ol>
+      <a class="ap__voltar" href="/blog/">Voltar</a>
+    </div>
+  </nav>
+  <main id="conteudo"><!--artigo-blog-->
+    <div class="ap__progresso" aria-hidden="true"><span></span></div>
+    <article class="ap" data-slug="chaikin-money-flow-cmf" data-api="https://duotide-visitas.visionxma.workers.dev" data-copiado="Link copiado">
+      <div class="container">
+        <header class="ap__cab" id="topo">
+          <div class="ap__info">
+            <div class="ap__linha">
+              <span><time datetime="2026-10-09">9 de out. de 2026</time><span class="ap__sep">5 min de leitura</span></span>
+              <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visualizações</span></span>
+            </div>
+            <p class="ap__atual">Atualizado em: <time datetime="2026-10-09">9 de outubro de 2026</time></p>
+            <span class="bq__tag">Indicadores</span>
+            <h1>Chaikin Money Flow (CMF): o que é e como medir a pressão compradora</h1>
+            <div class="ap__autor"><span class="ap__avatar" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span><span><strong>Redação de Análise</strong><small>Editoria Astron</small></span></div>
+          </div>
+          <figure class="ap__capa"><img src="/assets/img/astron-corretora-02.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        </header>
+        <div class="ap__grade">
+          <aside class="ap__lado">
+            <nav class="ap__indice" aria-label="Conteúdo">
+              <p class="ap__indice-tit">Conteúdo</p>
+              <div class="ap__trilho"><span class="ap__barra"></span><ol>
+                <li><a href="#o-que-e-o-chaikin-money-flow">O que é o Chaikin Money Flow</a></li>
+                <li><a href="#como-calcular-o-cmf">Como calcular o CMF</a></li>
+                <li><a href="#exemplo-real-o-fluxo-de-dinheiro-na-nvidia-em-2026">Exemplo real: o fluxo de dinheiro na Nvidia em 2026</a></li>
+                <li><a href="#como-usar-o-cmf">Como usar o CMF</a></li>
+                <li><a href="#erros-comuns-ao-usar-o-chaikin-money-flow">Erros comuns ao usar o Chaikin Money Flow</a></li>
+              </ol></div>
+              <a class="ap__topo" href="#topo"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 17V7m-4.5 4.5L12 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Voltar ao topo</a>
+            </nav>
+          </aside>
+          <div class="ap__texto article">
+            <div class="ap__resposta"><p class="ap__resposta-tit">Resposta rápida</p><p>O Chaikin Money Flow (CMF) é um indicador de volume criado por Marc Chaikin que mede se o dinheiro está entrando ou saindo de um ativo. Ele olha onde cada candle fechou dentro da sua faixa (perto da máxima ou da mínima), multiplica isso pelo volume e soma os últimos 20 períodos. <strong>Acima de zero indica pressão compradora (acumulação); abaixo de zero, pressão vendedora (distribuição)</strong>, mas o preço pode subir com CMF negativo por semanas.</p></div>
+            <p>Preço subindo com volume forte costuma ser lido como sinal de interesse comprador. Mas volume sozinho não diz quem venceu a disputa do dia. O Chaikin Money Flow resolve isso olhando para um detalhe que o candle já mostra: se o fechamento ficou perto da máxima, os compradores dominaram o fim da sessão; se ficou perto da mínima, os vendedores.</p>
+<p>Neste guia usamos as cotações diárias reais da Nvidia (NVDA, Yahoo Finance) entre abril e outubro de 2026. O gráfico mostra o OBV, outro indicador de volume, que serve de comparação; o CMF de 20 períodos foi calculado sobre os mesmos candles e os valores aparecem no texto.</p>
+<h2 id="o-que-e-o-chaikin-money-flow">O que é o Chaikin Money Flow</h2>
+<p>O CMF parte da linha de acumulação e distribuição, também de Marc Chaikin. A ideia é que o volume de um dia não deve contar inteiro para o lado comprador ou vendedor: ele conta na proporção de onde o preço fechou dentro da faixa entre máxima e mínima. O resultado oscila entre −1 e +1, embora na prática raramente passe de ±0,5.</p>
+<p>A diferença para o OBV é importante. O OBV soma ou subtrai o volume inteiro conforme o fechamento suba ou caia em relação ao dia anterior. O CMF ignora o dia anterior e olha só para dentro do candle, o que muda bastante a leitura em dias de gap.</p>
+<figure class="ap__ilustra"><img src="/assets/img/blog/ind-04.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="como-calcular-o-cmf">Como calcular o CMF</h2>
+<p>São três passos para cada candle e uma soma no fim:</p>
+<ul class="check-list">
+<li><strong>Multiplicador:</strong> [(fechamento − mínima) − (máxima − fechamento)] ÷ (máxima − mínima). Vai de −1 (fechou na mínima) a +1 (fechou na máxima).</li>
+<li><strong>Volume do fluxo:</strong> multiplicador × volume do candle.</li>
+<li><strong>CMF de 20:</strong> soma do volume do fluxo dos últimos 20 candles ÷ soma do volume dos mesmos 20 candles.</li>
+</ul>
+<h3>Exemplo com dados reais da Nvidia</h3>
+<p>Em 05/10/2026 a NVDA fez máxima de US$ 240,10, mínima de US$ 235,15 e fechou a US$ 238,90, com 127,2 milhões de ações negociadas.</p>
+<ul class="check-list">
+<li>Fechamento − mínima = 3,75; máxima − fechamento = 1,20; faixa = 4,95.</li>
+<li>Multiplicador = (3,75 − 1,20) ÷ 4,95 = <strong>0,515</strong>.</li>
+<li>Volume do fluxo = 0,515 × 127,2 milhões = <strong>+65,5 milhões</strong>.</li>
+</ul>
+<p>No dia seguinte, 06/10, a ação abriu a US$ 242,10, foi a US$ 243,37 e fechou a US$ 239,24, perto da mínima de US$ 238,93. Foi o maior fechamento do período e ficou acima do dia anterior, mas o multiplicador foi (0,31 − 4,13) ÷ 4,44 = <strong>−0,860</strong>, e o volume do fluxo, −87,5 milhões. Para o OBV, 06/10 foi um dia de alta; para o CMF, um dia de pressão vendedora.</p>
+<h2 id="exemplo-real-o-fluxo-de-dinheiro-na-nvidia-em-2026">Exemplo real: o fluxo de dinheiro na Nvidia em 2026</h2>
+<figure class="ap__grafico"><img src="/assets/graficos/chaikin-money-flow-cmf.svg" alt="Gráfico: Nvidia, diário, de 01/04/2026 a 07/10/2026. Dados: Yahoo Finance. Elaboração própria." width="960" height="540" loading="lazy" decoding="async"><figcaption>Gráfico: Nvidia, diário, de 01/04/2026 a 07/10/2026. Dados: Yahoo Finance. Elaboração própria.</figcaption></figure>
+<p>Entre 01/04 e 07/10, a NVDA subiu 35,1%, de US$ 175,75 para US$ 237,47. O CMF de 20 contou uma história menos linear.</p>
+<h3>Abril: acumulação forte no começo da alta</h3>
+<p>O CMF passou para o lado positivo em 15/04, com a ação a US$ 198,87, e chegou a 0,572 em 28/04, o maior valor do período, com o preço a US$ 213,17. Dez pregões depois da passagem por zero, a ação estava 5,2% acima. Leituras acima de 0,25 são raras e mostram fechamentos seguidos perto das máximas com volume alto.</p>
+<h3>Maio a julho: o fluxo virou antes da correção</h3>
+<p>O CMF caiu abaixo de zero em 22/05, a US$ 215,33, e a ação estava 3,1% abaixo dez pregões depois. Ele só voltou ao lado positivo em 07/07, a US$ 196,93, e a NVDA subiu 5,3% nos dez pregões seguintes. Nesse trecho, o indicador acompanhou bem as duas viradas.</p>
+<h3>Agosto a outubro: preço subindo com CMF negativo</h3>
+<p>De 14/08 em diante, o CMF ficou negativo quase sem interrupção, com mínima de −0,318 em 11/09 (preço a US$ 218,29). Mesmo assim, a ação fez seu maior fechamento do período em 06/10, a US$ 239,24, e terminou 07/10 com CMF de −0,115. O OBV mostra algo parecido: ele marcou seu pico em 14/05, com a ação a US$ 235,74, e em outubro estava abaixo daquele nível com o preço mais alto. Quem vendesse só porque o fluxo estava negativo teria ficado de fora de uma alta de 13,4% entre o menor fechamento de setembro (US$ 210,96, em 14/09) e 06/10. A divergência indica que a alta veio com fechamentos longe das máximas; não marca o momento de uma queda.</p>
+<figure class="ap__ilustra"><img src="/assets/img/blog/ind-05.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="como-usar-o-cmf">Como usar o CMF</h2>
+<h3>Linha do zero</h3>
+<p>A leitura mais simples: CMF acima de zero confirma uma tendência de alta, abaixo de zero confirma uma tendência de baixa. Muitos analistas usam uma faixa de tolerância, como ±0,05, para não reagir a cruzamentos mínimos, como os de 11, 13 e 14 de agosto, em que o CMF trocou de sinal três vezes em quatro pregões.</p>
+<h3>Confirmação de rompimento</h3>
+<p>Quando o preço rompe uma resistência, um CMF positivo e subindo mostra que o rompimento veio com fechamentos fortes. Rompimento com CMF negativo merece mais desconfiança.</p>
+<h3>Divergências</h3>
+<p>Preço em máxima mais alta com CMF caindo, como entre agosto e outubro, sugere que os compradores estão perdendo o controle do fechamento. Use como alerta para proteger lucro, não como ordem de venda.</p>
+<h3>Limitações</h3>
+<p>O CMF ignora gaps: um dia que abre muito acima e fecha um pouco abaixo da abertura conta como pressão vendedora, mesmo que o ativo tenha subido no dia. Ele depende da qualidade do volume, por isso funciona melhor em ações e índices do que em pares de moedas, cujo volume é descentralizado. E, como todo indicador de 20 períodos, olha só para o passado recente.</p>
+<h2 id="erros-comuns-ao-usar-o-chaikin-money-flow">Erros comuns ao usar o Chaikin Money Flow</h2>
+<ul class="check-list">
+<li>Tratar cada cruzamento da linha do zero como sinal de compra ou venda.</li>
+<li>Esquecer os gaps e achar que CMF negativo significa preço caindo.</li>
+<li>Usar o CMF em ativos sem volume confiável, como câmbio à vista.</li>
+<li>Confundir CMF com OBV: um olha para dentro do candle, o outro compara com o fechamento anterior.</li>
+<li>Ver uma divergência e apostar contra a tendência sem nenhum sinal de preço que confirme a virada.</li>
+<li>Esquecer que os exemplos acima descrevem o que aconteceu, não o que vai acontecer.</li>
+</ul>
+<p>Para praticar sem arriscar dinheiro, abra na conta demo o gráfico diário de uma ação com bastante volume, adicione o CMF de 20 períodos e anote, por algumas semanas, o que o preço fez depois de cada passagem pela linha do zero. Registre também as divergências e quanto tempo levaram para se resolver.</p>
+            <div class="bq-post__cta">
+              <p><strong>Pratique antes de arriscar.</strong> Crie sua conta na Astron e teste suas ideias na conta demo com US$ 10.000 virtuais.</p>
+              <a class="btn btn--primary" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Criar conta grátis</a>
+            </div>
+            <div class="ap__fim">
+              <p>Atualizado em: <time datetime="2026-10-09">9 de out. de 2026</time></p>
+              <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visualizações</span></span><button class="ap__compartilhar" type="button">Compartilhar <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+            </div>
+            <div class="ap__autorbox">
+              <span class="ap__avatar ap__avatar--g" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="48" height="48"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span>
+              <div><strong>Redação de Análise</strong><p>Explica gráficos, indicadores e estratégias de operação: como funcionam, onde falham e como testar antes de usar.</p></div>
+            </div>
+            <div class="ap__avaliar" data-votos="{m} de 5 · {n} avaliações" data-voto1="1 avaliação" data-obrigado="Obrigado pela sua avaliação!" data-sem="Seja o primeiro a avaliar.">
+              <p class="ap__avaliar-tit">Este artigo foi útil?</p>
+              <div class="ap__estrelas" role="radiogroup" aria-label="Este artigo foi útil?"><button type="button" role="radio" aria-checked="false" data-voto="1" aria-label="1/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="2" aria-label="2/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="3" aria-label="3/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="4" aria-label="4/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="5" aria-label="5/5">★</button></div>
+              <p class="ap__avaliar-info" aria-live="polite">Seja o primeiro a avaliar.</p>
+            </div>
+            <section class="ap__coment" data-anonimo="Anônimo" data-enviado="Recebemos seu comentário. Ele aparece aqui depois de aprovado pela equipe." data-erro="Não foi possível enviar agora. Tente de novo em instantes." data-vazio="Ainda não há comentários. Seja o primeiro a comentar." data-idioma="pt-BR">
+              <h2>Comentários</h2>
+              <ol class="ap__coment-lista"><li class="ap__coment-vazio">Ainda não há comentários. Seja o primeiro a comentar.</li></ol>
+              <form class="ap__coment-form">
+                <p class="ap__coment-tit">Deixe seu comentário</p>
+                <input name="nome" type="text" maxlength="60" placeholder="Seu nome (opcional)" aria-label="Seu nome (opcional)" autocomplete="name">
+                <textarea name="texto" maxlength="2000" rows="4" required placeholder="Seu comentário" aria-label="Seu comentário"></textarea>
+                <input name="site_url" type="text" tabindex="-1" autocomplete="off" class="ap__isca" aria-hidden="true">
+                <button class="btn btn--primary" type="submit">Enviar comentário</button>
+                <p class="ap__coment-msg" aria-live="polite"></p>
+              </form>
+            </section>
+          </div>
+        </div>
+        <aside class="ap__rel">
+          <h2>Artigos relacionados</h2>
+          <div class="bq__grade bq__grade--3">
+            <a class="bq__card" href="/blog/media-movel-de-hull-hma/"><img src="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp" srcset="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp 480w, /assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Média móvel de Hull (HMA): o que é, como calcular e por que atrasa menos</span><span class="bq__meta">09/10/2026 · 6 min de leitura</span></a>
+            <a class="bq__card" href="/blog/roc-rate-of-change-momentum/"><img src="/assets/img/mini/astron-corretora-04.webp" srcset="/assets/img/mini/astron-corretora-04.webp 480w, /assets/img/astron-corretora-04.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">ROC (Rate of Change): o que é o indicador de momentum e como calcular</span><span class="bq__meta">09/10/2026 · 5 min de leitura</span></a>
+            <a class="bq__card" href="/blog/o-que-e-o-indicador-adx/"><img src="/assets/img/mini/astron-app-03.webp" srcset="/assets/img/mini/astron-app-03.webp 480w, /assets/img/astron-app-03.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">O que é o indicador ADX e como calcular a força da tendência</span><span class="bq__meta">24/09/2026 · 6 min de leitura</span></a>
+          </div>
+        </aside>
+      </div>
+      <section class="ap-lp" aria-labelledby="ap-lp-tit">
+        <div class="container ap-lp__dentro">
+          <h2 id="ap-lp-tit">Pronto para colocar em prática?</h2>
+          <p class="ap-lp__sub">Abra sua conta e treine na conta demo com US$ 10.000 virtuais, sem arriscar dinheiro.</p>
+          <div class="ap-lp__botoes">
+            <a class="btn btn--primary" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Criar conta</a>
+            <a class="btn ap-lp__demo" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Testar a demo</a>
+          </div>
+          <ul class="ap-lp__selos">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Plataforma segura</strong><span>Login protegido e verificação de identidade</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0 1 16 0v1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="3" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="17" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/></svg><strong>Suporte em português</strong><span>Atendimento todos os dias</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18 9.5 12l4 3.5L20 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Conta demo grátis</strong><span>US$ 10.000 virtuais para treinar</span></li>
+          </ul>
+          <p class="ap-lp__risco">Operar envolve risco de perda do capital investido.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="site-logo"><span class="wordmark">
+            <img class="wordmark__logo" src="/assets/img/logo-astron.png" alt="Astron" width="158" height="40" decoding="async">
+            <span class="wordmark__text"></span>
+          </span></span>
+          <p class="footer__copy">Direitos autorais © 2026 Astron.<br>
+            Todos os direitos reservados.<br>
+            Site oficial.</p>
+        </div>
+        <div class="footer__nav footer__empresa">
+          <h2>Empresa</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/astron-e-confiavel/">Astron é Confiável?</a></li>
+            <li><a href="/astron-login/">Metódos de Login</a></li>
+            <li><a href="/astron-corretora/">Conheça a Corretora</a></li>
+            <li><a href="/astron-e-seguro/">Segurança da Broker</a></li>
+            <li><a href="/astron-app/">Aplicativo</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav footer__contact">
+          <h2>Contato</h2>
+          <p><a href="mailto:contato@astroncorretora.com.br">contato@astroncorretora.com.br</a></p>
+          <p class="footer__suporte"><span>Gerente de contas 24h/7</span><a href="mailto:suporte@astroncorretora.com.br">suporte@astroncorretora.com.br</a></p>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p>A Astron opera sob registro na Costa Rica (nº de registro 3-102-918450) e pode não ser autorizada pelo regulador financeiro do seu país: verifique antes de abrir conta. Qualquer informação aqui apresentada não deve ser interpretada como uma oferta de serviços financeiros. Não há garantia de que projeções ou estratégias resultem em desempenhos específicos, e o desempenho passado não assegura resultados futuros. A volatilidade dos mercados pode gerar variações significativas nos retornos. Derivativos e produtos alavancados são sofisticados e têm potencial elevado de risco: é essencial estar ciente da possibilidade de perdas, inclusive totais, do capital investido. Nunca invista valores que você não pode perder.</p>
+        <p class="footer__links">
+          <a href="/astron-perguntas-frequentes/">Perguntas frequentes</a>
+          <a href="/contato/">Contato</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <button class="to-top" type="button" aria-label="Voltar ao topo da página">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M12 8l-6 6 1.4 1.4L12 10.8l4.6 4.6L18 14z"/>
+    </svg>
+  </button>
+  <template id="pp-modelo">
+    <div class="pp pp--bonus" role="dialog" aria-modal="true" aria-labelledby="ppTit">
+      <div class="pp__cx" tabindex="-1">
+        <button class="pp__x" type="button" aria-label="Fechar">&#10005;</button>
+        <div class="pp__cont">
+          <h2 id="ppTit"><span class="pp__l1">Bônus</span> <span class="pp__l2">de 100%</span></h2>
+          <p>Deposite com o cupom <strong>WELCOME100</strong> e receba 100% de bônus sobre o valor depositado.</p>
+          <div class="pp__cupom"><span class="pp__cupom-rot">Cupom</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Copiado!">Copiar</button></div>
+          <a class="pp__btn" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Resgatar agora</a>
+          <p class="pp__mini">Sujeito às condições da promoção. Operar produtos alavancados envolve risco de perda.</p>
+        </div>
+        <div class="pp__fig" aria-hidden="true">
+          <picture><source media="(max-width: 799px)" srcset="/assets/img/popup-cofre-mob.webp"><img src="/assets/img/popup-cofre.webp" alt="" width="1034" height="960" loading="lazy" decoding="async"></picture>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="/assets/js/main.js?v=202610092051" defer></script>
+</body>
+</html>

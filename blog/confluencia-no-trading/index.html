@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr" data-tema="dark" data-tv="br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ===== SEO principal ===== -->
+  <title>Confluência no trading: o que é e por que vários sinais no mesmo nível importam | Blog Astron</title>
+  <meta name="description" content="O que é confluência, como somar suporte, médias móveis, Fibonacci e candles no mesmo nível, com um exemplo real no ouro, sem cair no excesso de indicadores.">
+  <link rel="canonical" href="https://astroncorretora.com.br/blog/confluencia-no-trading/">
+  <!--hreflang-->
+  <link rel="alternate" hreflang="pt-BR" href="https://astroncorretora.com.br/blog/confluencia-no-trading/">
+  <link rel="alternate" hreflang="x-default" href="https://astroncorretora.com.br/blog/confluencia-no-trading/">
+  <!--/hreflang-->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Astron">
+  <meta name="keywords" content="blog investimentos, guia corretora, educação financeira, trading para iniciantes">
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Confluência no trading: o que é e por que vários sinais no mesmo nível importam">
+  <meta property="og:description" content="O que é confluência, como somar suporte, médias móveis, Fibonacci e candles no mesmo nível, com um exemplo real no ouro, sem cair no excesso de indicadores.">
+  <meta property="og:url" content="https://astroncorretora.com.br/blog/confluencia-no-trading/">
+  <meta property="og:site_name" content="Astron">
+  <meta property="og:image" content="https://astroncorretora.com.br/assets/img/astron-corretora-02.webp">
+  <meta property="og:image:alt" content="Astron — Blog Astron">
+  <meta name="twitter:image" content="https://astroncorretora.com.br/assets/img/astron-corretora-02.webp">
+  <meta property="og:updated_time" content="undefined">
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Confluência no trading: o que é e por que vários sinais no mesmo nível importam">
+  <meta name="twitter:description" content="O que é confluência, como somar suporte, médias móveis, Fibonacci e candles no mesmo nível, com um exemplo real no ouro, sem cair no excesso de indicadores.">
+  <meta name="twitter:label1" content="Escrito por">
+  <meta name="twitter:data1" content="Astron">
+  <meta name="twitter:label2" content="Tempo de leitura">
+  <meta name="twitter:data2" content="5 minutos">
+  <!-- ===== Ícones e PWA ===== -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1f2026">
+  <!-- ===== Performance ===== -->
+  <link rel="preload" as="font" type="font/woff2"
+        href="/assets/fonts/ibm-plex-sans-latin-var.woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610092051">
+  <!-- ===== Dados estruturados (JSON-LD) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://astroncorretora.com.br/blog/confluencia-no-trading/#artigo",
+      "headline": "Confluência no trading: o que é e por que vários sinais no mesmo nível importam",
+      "description": "O que é confluência, como somar suporte, médias móveis, Fibonacci e candles no mesmo nível, com um exemplo real no ouro, sem cair no excesso de indicadores.",
+      "url": "https://astroncorretora.com.br/blog/confluencia-no-trading/",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-10-09T09:00:00-03:00",
+      "dateModified": "2026-10-09T09:00:00-03:00",
+      "image": "https://astroncorretora.com.br/assets/img/astron-corretora-02.webp",
+      "articleSection": "Análise técnica",
+      "author": {
+        "@type": "Organization",
+        "name": "Astron — Redação de Análise",
+        "url": "https://astroncorretora.com.br/blog/"
+      },
+      "publisher": {
+        "@id": "https://astroncorretora.com.br/#organization"
+      },
+      "mainEntityOfPage": "https://astroncorretora.com.br/blog/confluencia-no-trading/",
+      "isPartOf": {
+        "@id": "https://astroncorretora.com.br/blog/#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://astroncorretora.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://astroncorretora.com.br/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Confluência no trading: o que é e por que vários sinais no mesmo nível importam",
+          "item": "https://astroncorretora.com.br/blog/confluencia-no-trading/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="tema-claro">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <div class="site-header__left">
+        <a class="site-logo" href="/" aria-label="Astron — página inicial">
+          <span class="wordmark">
+          <img class="wordmark__logo" src="/assets/img/logo-astron-escuro.png" alt="Astron" width="126" height="32" decoding="async">
+          <span class="wordmark__text"><span class="wordmark__blog">Blog</span></span>
+        </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false"
+                aria-controls="menu-principal" aria-label="Abrir menu de navegação"
+                data-abrir="Abrir menu de navegação" data-fechar="Fechar menu de navegação">
+          <span></span>
+        </button>
+        <details class="idioma">
+          <summary aria-label="Escolher idioma"><img class="bandeira" src="/assets/img/bandeiras/pt.svg" alt="" width="22" height="16"><span>pt</span></summary>
+          <ul class="idioma__lista">
+            <li><a href="/blog/confluencia-no-trading/" hreflang="pt-BR" lang="pt-BR" aria-current="true"><img class="bandeira" src="/assets/img/bandeiras/pt.svg" alt="" width="20" height="15" loading="lazy">Português <small>pt</small></a></li>
+            <li><a href="/en/blog/" hreflang="en" lang="en"><img class="bandeira" src="/assets/img/bandeiras/en.svg" alt="" width="20" height="15" loading="lazy">English <small>en</small></a></li>
+            <li><a href="/es/blog/" hreflang="es" lang="es"><img class="bandeira" src="/assets/img/bandeiras/es.svg" alt="" width="20" height="15" loading="lazy">Español <small>es</small></a></li>
+            <li><a href="/ar/blog/" hreflang="ar" lang="ar"><img class="bandeira" src="/assets/img/bandeiras/ar.svg" alt="" width="20" height="15" loading="lazy">العربية <small>ar</small></a></li>
+            <li><a href="/bn/blog/" hreflang="bn" lang="bn"><img class="bandeira" src="/assets/img/bandeiras/bn.svg" alt="" width="20" height="15" loading="lazy">বাংলা <small>bn</small></a></li>
+            <li><a href="/de/blog/" hreflang="de" lang="de"><img class="bandeira" src="/assets/img/bandeiras/de.svg" alt="" width="20" height="15" loading="lazy">Deutsch <small>de</small></a></li>
+            <li><a href="/fil/blog/" hreflang="fil" lang="fil"><img class="bandeira" src="/assets/img/bandeiras/fil.svg" alt="" width="20" height="15" loading="lazy">Filipino <small>fil</small></a></li>
+            <li><a href="/fr/blog/" hreflang="fr" lang="fr"><img class="bandeira" src="/assets/img/bandeiras/fr.svg" alt="" width="20" height="15" loading="lazy">Français <small>fr</small></a></li>
+            <li><a href="/hi/blog/" hreflang="hi" lang="hi"><img class="bandeira" src="/assets/img/bandeiras/hi.svg" alt="" width="20" height="15" loading="lazy">हिन्दी <small>hi</small></a></li>
+            <li><a href="/id/blog/" hreflang="id" lang="id"><img class="bandeira" src="/assets/img/bandeiras/id.svg" alt="" width="20" height="15" loading="lazy">Bahasa Indonesia <small>id</small></a></li>
+            <li><a href="/it/blog/" hreflang="it" lang="it"><img class="bandeira" src="/assets/img/bandeiras/it.svg" alt="" width="20" height="15" loading="lazy">Italiano <small>it</small></a></li>
+            <li><a href="/ru/blog/" hreflang="ru" lang="ru"><img class="bandeira" src="/assets/img/bandeiras/ru.svg" alt="" width="20" height="15" loading="lazy">Русский <small>ru</small></a></li>
+            <li><a href="/sv/blog/" hreflang="sv" lang="sv"><img class="bandeira" src="/assets/img/bandeiras/sv.svg" alt="" width="20" height="15" loading="lazy">Svenska <small>sv</small></a></li>
+            <li><a href="/th/blog/" hreflang="th" lang="th"><img class="bandeira" src="/assets/img/bandeiras/th.svg" alt="" width="20" height="15" loading="lazy">ไทย <small>th</small></a></li>
+            <li><a href="/tr/blog/" hreflang="tr" lang="tr"><img class="bandeira" src="/assets/img/bandeiras/tr.svg" alt="" width="20" height="15" loading="lazy">Türkçe <small>tr</small></a></li>
+            <li><a href="/vi/blog/" hreflang="vi" lang="vi"><img class="bandeira" src="/assets/img/bandeiras/vi.svg" alt="" width="20" height="15" loading="lazy">Tiếng Việt <small>vi</small></a></li>
+            <li><a href="/zh/blog/" hreflang="zh-CN" lang="zh-CN"><img class="bandeira" src="/assets/img/bandeiras/zh.svg" alt="" width="20" height="15" loading="lazy">简体中文 <small>zh</small></a></li>
+          </ul>
+        </details>
+      </div>
+      <nav class="site-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/astron-e-confiavel/">É confiável?</a></li>
+          <li><a href="/astron-login/">Login</a></li>
+          <li><a href="/astron-corretora/">A corretora</a></li>
+          <li><a href="/astron-e-seguro/">É seguro?</a></li>
+          <li><a href="/astron-app/">Aplicativo</a></li>
+          <li><a href="/melhores-corretoras/">Melhores corretoras</a></li>
+          <li><a href="/blog/" aria-current="page">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <a class="btn btn--primary btn--sm" href="https://trade.astronbroker.com/pt/register?afftrack=astron"
+           target="_blank" rel="noopener sponsored nofollow">Criar conta</a>
+        <a class="btn btn--outline btn--sm" href="/astron-login/">Login</a>
+      </div>
+    </div>
+  </header>
+  <nav class="breadcrumb" aria-label="Trilha de navegação">
+    <div class="container ap__trilha">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><span aria-current="page">Confluência no trading: o que é e por que vários sinais no mesmo nível importam</span></li>
+      </ol>
+      <a class="ap__voltar" href="/blog/">Voltar</a>
+    </div>
+  </nav>
+  <main id="conteudo"><!--artigo-blog-->
+    <div class="ap__progresso" aria-hidden="true"><span></span></div>
+    <article class="ap" data-slug="confluencia-no-trading" data-api="https://duotide-visitas.visionxma.workers.dev" data-copiado="Link copiado">
+      <div class="container">
+        <header class="ap__cab" id="topo">
+          <div class="ap__info">
+            <div class="ap__linha">
+              <span><time datetime="2026-10-09">9 de out. de 2026</time><span class="ap__sep">5 min de leitura</span></span>
+              <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visualizações</span></span>
+            </div>
+            <p class="ap__atual">Atualizado em: <time datetime="2026-10-09">9 de outubro de 2026</time></p>
+            <span class="bq__tag">Análise técnica</span>
+            <h1>Confluência no trading: o que é e por que vários sinais no mesmo nível importam</h1>
+            <div class="ap__autor"><span class="ap__avatar" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span><span><strong>Redação de Análise</strong><small>Editoria Astron</small></span></div>
+          </div>
+          <figure class="ap__capa"><img src="/assets/img/astron-corretora-02.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        </header>
+        <div class="ap__grade">
+          <aside class="ap__lado">
+            <nav class="ap__indice" aria-label="Conteúdo">
+              <p class="ap__indice-tit">Conteúdo</p>
+              <div class="ap__trilho"><span class="ap__barra"></span><ol>
+                <li><a href="#o-que-e-confluencia">O que é confluência</a></li>
+                <li><a href="#como-montar-uma-zona-de-confluencia">Como montar uma zona de confluência</a></li>
+                <li><a href="#exemplo-real-as-zonas-de-confluencia-do-ouro-em-2026">Exemplo real: as zonas de confluência do ouro em 2026</a></li>
+                <li><a href="#como-usar-a-confluencia-sem-exagerar">Como usar a confluência sem exagerar</a></li>
+                <li><a href="#erros-comuns-ao-usar-confluencia">Erros comuns ao usar confluência</a></li>
+              </ol></div>
+              <a class="ap__topo" href="#topo"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 17V7m-4.5 4.5L12 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Voltar ao topo</a>
+            </nav>
+          </aside>
+          <div class="ap__texto article">
+            <div class="ap__resposta"><p class="ap__resposta-tit">Resposta rápida</p><p>Confluência é quando ferramentas de análise diferentes e independentes apontam para o mesmo nível ou a mesma direção, por exemplo um suporte antigo, uma média móvel e uma retração de Fibonacci na mesma faixa de preço. <strong>A ideia é que um nível com vários motivos para reação tem mais chance de ser respeitado do que um nível com um só.</strong> Confluência aumenta a qualidade de uma zona, mas não garante que o preço vá reagir ali.</p></div>
+            <p>Quase todo nível do gráfico pode ser justificado por alguma ferramenta. Há tantas médias, linhas de tendência e retrações possíveis que, se você procurar, sempre vai encontrar um motivo para o preço parar em qualquer lugar. Confluência é o filtro contrário: em vez de um motivo, você procura lugares onde vários motivos diferentes coincidem.</p>
+<p>Neste guia usamos as cotações diárias reais do ouro (contrato futuro, Yahoo Finance) entre maio e outubro de 2026, com as médias móveis simples de 50 e de 100 dias no gráfico, para montar duas zonas de confluência e ver o que o preço fez em cada uma.</p>
+<h2 id="o-que-e-confluencia">O que é confluência</h2>
+<p>Confluência é a coincidência de sinais de naturezas diferentes no mesmo ponto. As ferramentas mais combinadas são:</p>
+<ul class="check-list">
+<li><strong>Estrutura de preço:</strong> suportes e resistências anteriores, topos e fundos, números redondos.</li>
+<li><strong>Médias móveis:</strong> as de 20, 50, 100 e 200 períodos, muito acompanhadas.</li>
+<li><strong>Fibonacci:</strong> as retrações de 38,2%, 50%, 61,8% e 78,6% de um movimento.</li>
+<li><strong>Padrão de candle:</strong> um martelo, um engolfo ou um marubozu que confirma a reação no nível.</li>
+<li><strong>Volume:</strong> regiões de muito negócio no perfil de volume.</li>
+</ul>
+<p>O ponto central é a independência. Três médias móveis de períodos parecidos no mesmo lugar não são três sinais, são o mesmo sinal repetido. Um suporte antigo, uma média e uma retração de Fibonacci são construídos de jeitos diferentes; quando coincidem, aí sim há confluência.</p>
+<figure class="ap__ilustra"><img src="/assets/img/blog/ind-02.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="como-montar-uma-zona-de-confluencia">Como montar uma zona de confluência</h2>
+<p>O roteiro tem quatro passos. Vamos aplicá-lo à alta do ouro entre o fim de junho e o fim de agosto de 2026.</p>
+<ul class="check-list">
+<li><strong>Passo 1, o movimento:</strong> o ouro saiu da mínima de US$ 3.955,40 em 30/06 e chegou à máxima de US$ 4.755,00 em 25/08. Amplitude: US$ 799,60.</li>
+<li><strong>Passo 2, as retrações:</strong> 38,2% = 4.755,00 − 0,382 × 799,60 = <strong>US$ 4.449,55</strong>; 50% = <strong>US$ 4.355,20</strong>; 61,8% = <strong>US$ 4.260,85</strong>; 78,6% = <strong>US$ 4.126,51</strong>.</li>
+<li><strong>Passo 3, as médias:</strong> em meados de setembro, a média de 50 dias estava entre US$ 4.308 e US$ 4.325, e a de 100 dias, entre US$ 4.362 e US$ 4.371.</li>
+<li><strong>Passo 4, a estrutura:</strong> entre 01/07 e 04/08, o ouro não conseguiu fechar acima de US$ 4.170: os maiores fechamentos foram US$ 4.167,50 em 06/07, US$ 4.152,60 em 04/08 e US$ 4.151,90 em 22/07, embora a máxima tenha chegado a US$ 4.215,50 em 06/07. Resistência rompida costuma virar suporte.</li>
+</ul>
+<p>Daí saem duas zonas. A primeira, entre cerca de US$ 4.260 e US$ 4.370, reúne as retrações de 50% e 61,8% e as duas médias. A segunda, entre cerca de US$ 4.125 e US$ 4.170, reúne a retração de 78,6% e a antiga resistência de julho.</p>
+<h2 id="exemplo-real-as-zonas-de-confluencia-do-ouro-em-2026">Exemplo real: as zonas de confluência do ouro em 2026</h2>
+<figure class="ap__grafico"><img src="/assets/graficos/confluencia-no-trading.svg" alt="Gráfico: Ouro, diário, de 01/05/2026 a 07/10/2026. Dados: Yahoo Finance. Elaboração própria." width="960" height="540" loading="lazy" decoding="async"><figcaption>Gráfico: Ouro, diário, de 01/05/2026 a 07/10/2026. Dados: Yahoo Finance. Elaboração própria.</figcaption></figure>
+<p>No período do gráfico, o ouro caiu 10,85%, de US$ 4.644,50 para US$ 4.140,70, com máxima de US$ 4.783,40 em 12/05 e mínima de US$ 3.955,40 em 30/06. Em 07/10, o preço estava abaixo das duas médias: US$ 4.372,23 na de 50 e US$ 4.307,90 na de 100.</p>
+<h3>Setembro: a primeira zona segurou, por pouco tempo</h3>
+<p>Em 16/09 o ouro caiu até US$ 4.273,30, dentro da primeira zona, e fechou a US$ 4.387,50, perto da máxima do dia, deixando uma longa sombra inferior. Nos dois pregões seguintes subiu até a máxima de US$ 4.439,80 em 18/09, quase 4% acima da mínima de 16/09. A confluência gerou uma reação clara. Mas não durou: o preço voltou à zona na semana seguinte e, em 28/09, fechou a US$ 4.168,40, abaixo das duas médias e da retração de 61,8%. Uma zona forte não é uma zona definitiva.</p>
+<h3>Fim de setembro e outubro: a segunda zona em teste</h3>
+<p>A queda de 28/09 parou justamente na segunda zona. As mínimas dos dias seguintes foram US$ 4.143,10 (28/09), US$ 4.145,20 (29/09), US$ 4.153,80 (02/10) e US$ 4.150,40 (05/10), todas entre a retração de 78,6% e a antiga resistência de julho. Em 07/10, porém, a mínima foi US$ 4.091,20, abaixo da zona, e o fechamento, US$ 4.140,70, de volta para dentro dela. Até essa data, o teste estava em aberto.</p>
+<h3>O que os dois casos ensinam</h3>
+<p>Nos dois casos, a confluência mostrou onde valia a pena prestar atenção, e o preço de fato desacelerou nesses lugares. Em nenhum dos dois ela disse quanto tempo a reação iria durar. É para isso que servem o stop e o plano de saída.</p>
+<figure class="ap__ilustra"><img src="/assets/img/blog/ind-03.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="como-usar-a-confluencia-sem-exagerar">Como usar a confluência sem exagerar</h2>
+<h3>Comece pela estrutura</h3>
+<p>Topos, fundos e suportes antigos são a base. Médias e Fibonacci servem para refinar uma zona que a estrutura já sugeriu, não para criar zonas do nada.</p>
+<h3>Limite as ferramentas</h3>
+<p>Duas ou três ferramentas independentes bastam. Quem usa dez indicadores sempre encontra três concordando em algum lugar, e a confluência perde o sentido.</p>
+<h3>Trabalhe com zonas, não com linhas</h3>
+<p>As ferramentas raramente coincidem no centavo. Uma zona de alguns dólares no ouro, ou de alguns pips no câmbio, é mais realista do que um preço exato.</p>
+<h3>Espere o gatilho</h3>
+<p>A zona diz onde olhar; o gatilho diz quando agir. Um candle de rejeição, como o de 16/09, é o tipo de confirmação que costuma ser usado.</p>
+<h3>Limitações</h3>
+<p>Confluência é escolha do analista: outro ponto de partida para o Fibonacci ou outras médias dariam zonas diferentes. E ela é fácil de enxergar depois que o preço reagiu, o que cria a ilusão de que funciona sempre.</p>
+<h2 id="erros-comuns-ao-usar-confluencia">Erros comuns ao usar confluência</h2>
+<ul class="check-list">
+<li>Contar como confluência indicadores que medem a mesma coisa, como várias médias de períodos próximos.</li>
+<li>Acrescentar indicadores até encontrar um que confirme a opinião que você já tinha.</li>
+<li>Achar que uma zona com muitos sinais dispensa stop.</li>
+<li>Mudar o ponto do Fibonacci depois do fato para que ele caia onde o preço reagiu.</li>
+<li>Esquecer que uma zona rompida, como a de setembro, perde a validade.</li>
+<li>Tomar os exemplos acima como previsão: eles descrevem o que aconteceu com o ouro em 2026.</li>
+</ul>
+<p>Para praticar sem arriscar dinheiro, escolha um ativo na conta demo, marque antes do fato duas ou três zonas de confluência com no máximo três ferramentas e anote, nas semanas seguintes, como o preço se comportou em cada uma. Registrar antes evita a armadilha de enxergar a confluência só depois.</p>
+            <div class="bq-post__cta">
+              <p><strong>Pratique antes de arriscar.</strong> Crie sua conta na Astron e teste suas ideias na conta demo com US$ 10.000 virtuais.</p>
+              <a class="btn btn--primary" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Criar conta grátis</a>
+            </div>
+            <div class="ap__fim">
+              <p>Atualizado em: <time datetime="2026-10-09">9 de out. de 2026</time></p>
+              <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visualizações</span></span><button class="ap__compartilhar" type="button">Compartilhar <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+            </div>
+            <div class="ap__autorbox">
+              <span class="ap__avatar ap__avatar--g" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="48" height="48"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span>
+              <div><strong>Redação de Análise</strong><p>Explica gráficos, indicadores e estratégias de operação: como funcionam, onde falham e como testar antes de usar.</p></div>
+            </div>
+            <div class="ap__avaliar" data-votos="{m} de 5 · {n} avaliações" data-voto1="1 avaliação" data-obrigado="Obrigado pela sua avaliação!" data-sem="Seja o primeiro a avaliar.">
+              <p class="ap__avaliar-tit">Este artigo foi útil?</p>
+              <div class="ap__estrelas" role="radiogroup" aria-label="Este artigo foi útil?"><button type="button" role="radio" aria-checked="false" data-voto="1" aria-label="1/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="2" aria-label="2/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="3" aria-label="3/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="4" aria-label="4/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="5" aria-label="5/5">★</button></div>
+              <p class="ap__avaliar-info" aria-live="polite">Seja o primeiro a avaliar.</p>
+            </div>
+            <section class="ap__coment" data-anonimo="Anônimo" data-enviado="Recebemos seu comentário. Ele aparece aqui depois de aprovado pela equipe." data-erro="Não foi possível enviar agora. Tente de novo em instantes." data-vazio="Ainda não há comentários. Seja o primeiro a comentar." data-idioma="pt-BR">
+              <h2>Comentários</h2>
+              <ol class="ap__coment-lista"><li class="ap__coment-vazio">Ainda não há comentários. Seja o primeiro a comentar.</li></ol>
+              <form class="ap__coment-form">
+                <p class="ap__coment-tit">Deixe seu comentário</p>
+                <input name="nome" type="text" maxlength="60" placeholder="Seu nome (opcional)" aria-label="Seu nome (opcional)" autocomplete="name">
+                <textarea name="texto" maxlength="2000" rows="4" required placeholder="Seu comentário" aria-label="Seu comentário"></textarea>
+                <input name="site_url" type="text" tabindex="-1" autocomplete="off" class="ap__isca" aria-hidden="true">
+                <button class="btn btn--primary" type="submit">Enviar comentário</button>
+                <p class="ap__coment-msg" aria-live="polite"></p>
+              </form>
+            </section>
+          </div>
+        </div>
+        <aside class="ap__rel">
+          <h2>Artigos relacionados</h2>
+          <div class="bq__grade bq__grade--3">
+            <a class="bq__card" href="/blog/candle-marubozu-o-que-significa/"><img src="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp" srcset="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp 480w, /assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Candle marubozu: o que significa o candle sem sombra</span><span class="bq__meta">09/10/2026 · 5 min de leitura</span></a>
+            <a class="bq__card" href="/blog/fair-value-gap-o-que-e/"><img src="/assets/img/mini/astron-vale-a-pena.webp" srcset="/assets/img/mini/astron-vale-a-pena.webp 480w, /assets/img/astron-vale-a-pena.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Fair value gap (FVG): o que é e como identificar no gráfico</span><span class="bq__meta">09/10/2026 · 5 min de leitura</span></a>
+            <a class="bq__card" href="/blog/grafico-renko-o-que-e/"><img src="/assets/img/mini/astron-corretora-04.webp" srcset="/assets/img/mini/astron-corretora-04.webp 480w, /assets/img/astron-corretora-04.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Gráfico Renko: o que é, como funciona e como escolher o tamanho do tijolo</span><span class="bq__meta">09/10/2026 · 5 min de leitura</span></a>
+          </div>
+        </aside>
+      </div>
+      <section class="ap-lp" aria-labelledby="ap-lp-tit">
+        <div class="container ap-lp__dentro">
+          <h2 id="ap-lp-tit">Pronto para colocar em prática?</h2>
+          <p class="ap-lp__sub">Abra sua conta e treine na conta demo com US$ 10.000 virtuais, sem arriscar dinheiro.</p>
+          <div class="ap-lp__botoes">
+            <a class="btn btn--primary" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Criar conta</a>
+            <a class="btn ap-lp__demo" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Testar a demo</a>
+          </div>
+          <ul class="ap-lp__selos">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Plataforma segura</strong><span>Login protegido e verificação de identidade</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0 1 16 0v1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="3" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="17" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/></svg><strong>Suporte em português</strong><span>Atendimento todos os dias</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18 9.5 12l4 3.5L20 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Conta demo grátis</strong><span>US$ 10.000 virtuais para treinar</span></li>
+          </ul>
+          <p class="ap-lp__risco">Operar envolve risco de perda do capital investido.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="site-logo"><span class="wordmark">
+            <img class="wordmark__logo" src="/assets/img/logo-astron.png" alt="Astron" width="158" height="40" decoding="async">
+            <span class="wordmark__text"></span>
+          </span></span>
+          <p class="footer__copy">Direitos autorais © 2026 Astron.<br>
+            Todos os direitos reservados.<br>
+            Site oficial.</p>
+        </div>
+        <div class="footer__nav footer__empresa">
+          <h2>Empresa</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/astron-e-confiavel/">Astron é Confiável?</a></li>
+            <li><a href="/astron-login/">Metódos de Login</a></li>
+            <li><a href="/astron-corretora/">Conheça a Corretora</a></li>
+            <li><a href="/astron-e-seguro/">Segurança da Broker</a></li>
+            <li><a href="/astron-app/">Aplicativo</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav footer__contact">
+          <h2>Contato</h2>
+          <p><a href="mailto:contato@astroncorretora.com.br">contato@astroncorretora.com.br</a></p>
+          <p class="footer__suporte"><span>Gerente de contas 24h/7</span><a href="mailto:suporte@astroncorretora.com.br">suporte@astroncorretora.com.br</a></p>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p>A Astron opera sob registro na Costa Rica (nº de registro 3-102-918450) e pode não ser autorizada pelo regulador financeiro do seu país: verifique antes de abrir conta. Qualquer informação aqui apresentada não deve ser interpretada como uma oferta de serviços financeiros. Não há garantia de que projeções ou estratégias resultem em desempenhos específicos, e o desempenho passado não assegura resultados futuros. A volatilidade dos mercados pode gerar variações significativas nos retornos. Derivativos e produtos alavancados são sofisticados e têm potencial elevado de risco: é essencial estar ciente da possibilidade de perdas, inclusive totais, do capital investido. Nunca invista valores que você não pode perder.</p>
+        <p class="footer__links">
+          <a href="/astron-perguntas-frequentes/">Perguntas frequentes</a>
+          <a href="/contato/">Contato</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <button class="to-top" type="button" aria-label="Voltar ao topo da página">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M12 8l-6 6 1.4 1.4L12 10.8l4.6 4.6L18 14z"/>
+    </svg>
+  </button>
+  <template id="pp-modelo">
+    <div class="pp pp--bonus" role="dialog" aria-modal="true" aria-labelledby="ppTit">
+      <div class="pp__cx" tabindex="-1">
+        <button class="pp__x" type="button" aria-label="Fechar">&#10005;</button>
+        <div class="pp__cont">
+          <h2 id="ppTit"><span class="pp__l1">Bônus</span> <span class="pp__l2">de 100%</span></h2>
+          <p>Deposite com o cupom <strong>WELCOME100</strong> e receba 100% de bônus sobre o valor depositado.</p>
+          <div class="pp__cupom"><span class="pp__cupom-rot">Cupom</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Copiado!">Copiar</button></div>
+          <a class="pp__btn" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Resgatar agora</a>
+          <p class="pp__mini">Sujeito às condições da promoção. Operar produtos alavancados envolve risco de perda.</p>
+        </div>
+        <div class="pp__fig" aria-hidden="true">
+          <picture><source media="(max-width: 799px)" srcset="/assets/img/popup-cofre-mob.webp"><img src="/assets/img/popup-cofre.webp" alt="" width="1034" height="960" loading="lazy" decoding="async"></picture>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="/assets/js/main.js?v=202610092051" defer></script>
+</body>
+</html>

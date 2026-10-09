@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr" data-tema="dark" data-tv="br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ===== SEO principal ===== -->
+  <title>Fair value gap (FVG): o que é e como identificar no gráfico | Blog Astron</title>
+  <meta name="description" content="O que é o fair value gap, como três candles formam o desequilíbrio, por que o preço às vezes volta para preenchê-lo e exemplos reais no ether.">
+  <link rel="canonical" href="https://astroncorretora.com.br/blog/fair-value-gap-o-que-e/">
+  <!--hreflang-->
+  <link rel="alternate" hreflang="pt-BR" href="https://astroncorretora.com.br/blog/fair-value-gap-o-que-e/">
+  <link rel="alternate" hreflang="x-default" href="https://astroncorretora.com.br/blog/fair-value-gap-o-que-e/">
+  <!--/hreflang-->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Astron">
+  <meta name="keywords" content="blog investimentos, guia corretora, educação financeira, trading para iniciantes">
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Fair value gap (FVG): o que é e como identificar no gráfico">
+  <meta property="og:description" content="O que é o fair value gap, como três candles formam o desequilíbrio, por que o preço às vezes volta para preenchê-lo e exemplos reais no ether.">
+  <meta property="og:url" content="https://astroncorretora.com.br/blog/fair-value-gap-o-que-e/">
+  <meta property="og:site_name" content="Astron">
+  <meta property="og:image" content="https://astroncorretora.com.br/assets/img/astron-vale-a-pena.webp">
+  <meta property="og:image:alt" content="Astron — Blog Astron">
+  <meta name="twitter:image" content="https://astroncorretora.com.br/assets/img/astron-vale-a-pena.webp">
+  <meta property="og:updated_time" content="undefined">
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fair value gap (FVG): o que é e como identificar no gráfico">
+  <meta name="twitter:description" content="O que é o fair value gap, como três candles formam o desequilíbrio, por que o preço às vezes volta para preenchê-lo e exemplos reais no ether.">
+  <meta name="twitter:label1" content="Escrito por">
+  <meta name="twitter:data1" content="Astron">
+  <meta name="twitter:label2" content="Tempo de leitura">
+  <meta name="twitter:data2" content="5 minutos">
+  <!-- ===== Ícones e PWA ===== -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1f2026">
+  <!-- ===== Performance ===== -->
+  <link rel="preload" as="font" type="font/woff2"
+        href="/assets/fonts/ibm-plex-sans-latin-var.woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610092051">
+  <!-- ===== Dados estruturados (JSON-LD) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://astroncorretora.com.br/blog/fair-value-gap-o-que-e/#artigo",
+      "headline": "Fair value gap (FVG): o que é e como identificar no gráfico",
+      "description": "O que é o fair value gap, como três candles formam o desequilíbrio, por que o preço às vezes volta para preenchê-lo e exemplos reais no ether.",
+      "url": "https://astroncorretora.com.br/blog/fair-value-gap-o-que-e/",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-10-09T09:00:00-03:00",
+      "dateModified": "2026-10-09T09:00:00-03:00",
+      "image": "https://astroncorretora.com.br/assets/img/astron-vale-a-pena.webp",
+      "articleSection": "Análise técnica",
+      "author": {
+        "@type": "Organization",
+        "name": "Astron — Redação de Análise",
+        "url": "https://astroncorretora.com.br/blog/"
+      },
+      "publisher": {
+        "@id": "https://astroncorretora.com.br/#organization"
+      },
+      "mainEntityOfPage": "https://astroncorretora.com.br/blog/fair-value-gap-o-que-e/",
+      "isPartOf": {
+        "@id": "https://astroncorretora.com.br/blog/#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://astroncorretora.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://astroncorretora.com.br/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fair value gap (FVG): o que é e como identificar no gráfico",
+          "item": "https://astroncorretora.com.br/blog/fair-value-gap-o-que-e/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="tema-claro">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <div class="site-header__left">
+        <a class="site-logo" href="/" aria-label="Astron — página inicial">
+          <span class="wordmark">
+          <img class="wordmark__logo" src="/assets/img/logo-astron-escuro.png" alt="Astron" width="126" height="32" decoding="async">
+          <span class="wordmark__text"><span class="wordmark__blog">Blog</span></span>
+        </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false"
+                aria-controls="menu-principal" aria-label="Abrir menu de navegação"
+                data-abrir="Abrir menu de navegação" data-fechar="Fechar menu de navegação">
+          <span></span>
+        </button>
+        <details class="idioma">
+          <summary aria-label="Escolher idioma"><img class="bandeira" src="/assets/img/bandeiras/pt.svg" alt="" width="22" height="16"><span>pt</span></summary>
+          <ul class="idioma__lista">
+            <li><a href="/blog/fair-value-gap-o-que-e/" hreflang="pt-BR" lang="pt-BR" aria-current="true"><img class="bandeira" src="/assets/img/bandeiras/pt.svg" alt="" width="20" height="15" loading="lazy">Português <small>pt</small></a></li>
+            <li><a href="/en/blog/" hreflang="en" lang="en"><img class="bandeira" src="/assets/img/bandeiras/en.svg" alt="" width="20" height="15" loading="lazy">English <small>en</small></a></li>
+            <li><a href="/es/blog/" hreflang="es" lang="es"><img class="bandeira" src="/assets/img/bandeiras/es.svg" alt="" width="20" height="15" loading="lazy">Español <small>es</small></a></li>
+            <li><a href="/ar/blog/" hreflang="ar" lang="ar"><img class="bandeira" src="/assets/img/bandeiras/ar.svg" alt="" width="20" height="15" loading="lazy">العربية <small>ar</small></a></li>
+            <li><a href="/bn/blog/" hreflang="bn" lang="bn"><img class="bandeira" src="/assets/img/bandeiras/bn.svg" alt="" width="20" height="15" loading="lazy">বাংলা <small>bn</small></a></li>
+            <li><a href="/de/blog/" hreflang="de" lang="de"><img class="bandeira" src="/assets/img/bandeiras/de.svg" alt="" width="20" height="15" loading="lazy">Deutsch <small>de</small></a></li>
+            <li><a href="/fil/blog/" hreflang="fil" lang="fil"><img class="bandeira" src="/assets/img/bandeiras/fil.svg" alt="" width="20" height="15" loading="lazy">Filipino <small>fil</small></a></li>
+            <li><a href="/fr/blog/" hreflang="fr" lang="fr"><img class="bandeira" src="/assets/img/bandeiras/fr.svg" alt="" width="20" height="15" loading="lazy">Français <small>fr</small></a></li>
+            <li><a href="/hi/blog/" hreflang="hi" lang="hi"><img class="bandeira" src="/assets/img/bandeiras/hi.svg" alt="" width="20" height="15" loading="lazy">हिन्दी <small>hi</small></a></li>
+            <li><a href="/id/blog/" hreflang="id" lang="id"><img class="bandeira" src="/assets/img/bandeiras/id.svg" alt="" width="20" height="15" loading="lazy">Bahasa Indonesia <small>id</small></a></li>
+            <li><a href="/it/blog/" hreflang="it" lang="it"><img class="bandeira" src="/assets/img/bandeiras/it.svg" alt="" width="20" height="15" loading="lazy">Italiano <small>it</small></a></li>
+            <li><a href="/ru/blog/" hreflang="ru" lang="ru"><img class="bandeira" src="/assets/img/bandeiras/ru.svg" alt="" width="20" height="15" loading="lazy">Русский <small>ru</small></a></li>
+            <li><a href="/sv/blog/" hreflang="sv" lang="sv"><img class="bandeira" src="/assets/img/bandeiras/sv.svg" alt="" width="20" height="15" loading="lazy">Svenska <small>sv</small></a></li>
+            <li><a href="/th/blog/" hreflang="th" lang="th"><img class="bandeira" src="/assets/img/bandeiras/th.svg" alt="" width="20" height="15" loading="lazy">ไทย <small>th</small></a></li>
+            <li><a href="/tr/blog/" hreflang="tr" lang="tr"><img class="bandeira" src="/assets/img/bandeiras/tr.svg" alt="" width="20" height="15" loading="lazy">Türkçe <small>tr</small></a></li>
+            <li><a href="/vi/blog/" hreflang="vi" lang="vi"><img class="bandeira" src="/assets/img/bandeiras/vi.svg" alt="" width="20" height="15" loading="lazy">Tiếng Việt <small>vi</small></a></li>
+            <li><a href="/zh/blog/" hreflang="zh-CN" lang="zh-CN"><img class="bandeira" src="/assets/img/bandeiras/zh.svg" alt="" width="20" height="15" loading="lazy">简体中文 <small>zh</small></a></li>
+          </ul>
+        </details>
+      </div>
+      <nav class="site-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/astron-e-confiavel/">É confiável?</a></li>
+          <li><a href="/astron-login/">Login</a></li>
+          <li><a href="/astron-corretora/">A corretora</a></li>
+          <li><a href="/astron-e-seguro/">É seguro?</a></li>
+          <li><a href="/astron-app/">Aplicativo</a></li>
+          <li><a href="/melhores-corretoras/">Melhores corretoras</a></li>
+          <li><a href="/blog/" aria-current="page">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <a class="btn btn--primary btn--sm" href="https://trade.astronbroker.com/pt/register?afftrack=astron"
+           target="_blank" rel="noopener sponsored nofollow">Criar conta</a>
+        <a class="btn btn--outline btn--sm" href="/astron-login/">Login</a>
+      </div>
+    </div>
+  </header>
+  <nav class="breadcrumb" aria-label="Trilha de navegação">
+    <div class="container ap__trilha">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><span aria-current="page">Fair value gap (FVG): o que é e como identificar no gráfico</span></li>
+      </ol>
+      <a class="ap__voltar" href="/blog/">Voltar</a>
+    </div>
+  </nav>
+  <main id="conteudo"><!--artigo-blog-->
+    <div class="ap__progresso" aria-hidden="true"><span></span></div>
+    <article class="ap" data-slug="fair-value-gap-o-que-e" data-api="https://duotide-visitas.visionxma.workers.dev" data-copiado="Link copiado">
+      <div class="container">
+        <header class="ap__cab" id="topo">
+          <div class="ap__info">
+            <div class="ap__linha">
+              <span><time datetime="2026-10-09">9 de out. de 2026</time><span class="ap__sep">5 min de leitura</span></span>
+              <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visualizações</span></span>
+            </div>
+            <p class="ap__atual">Atualizado em: <time datetime="2026-10-09">9 de outubro de 2026</time></p>
+            <span class="bq__tag">Análise técnica</span>
+            <h1>Fair value gap (FVG): o que é e como identificar no gráfico</h1>
+            <div class="ap__autor"><span class="ap__avatar" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span><span><strong>Redação de Análise</strong><small>Editoria Astron</small></span></div>
+          </div>
+          <figure class="ap__capa"><img src="/assets/img/astron-vale-a-pena.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        </header>
+        <div class="ap__grade">
+          <aside class="ap__lado">
+            <nav class="ap__indice" aria-label="Conteúdo">
+              <p class="ap__indice-tit">Conteúdo</p>
+              <div class="ap__trilho"><span class="ap__barra"></span><ol>
+                <li><a href="#o-que-e-um-fair-value-gap">O que é um fair value gap</a></li>
+                <li><a href="#como-identificar-um-fvg-passo-a-passo">Como identificar um FVG passo a passo</a></li>
+                <li><a href="#exemplo-real-fair-value-gaps-no-ether-em-2026">Exemplo real: fair value gaps no ether em 2026</a></li>
+                <li><a href="#como-usar-o-fair-value-gap">Como usar o fair value gap</a></li>
+                <li><a href="#erros-comuns-ao-usar-o-fair-value-gap">Erros comuns ao usar o fair value gap</a></li>
+              </ol></div>
+              <a class="ap__topo" href="#topo"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 17V7m-4.5 4.5L12 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Voltar ao topo</a>
+            </nav>
+          </aside>
+          <div class="ap__texto article">
+            <div class="ap__resposta"><p class="ap__resposta-tit">Resposta rápida</p><p>O fair value gap (FVG), ou lacuna de valor justo, é uma região de preço deixada por um movimento rápido, identificada em três candles seguidos: a máxima do primeiro e a mínima do terceiro não se tocam (no caso de alta), e o candle do meio atravessa esse espaço sozinho. <strong>A ideia é que ali houve desequilíbrio entre compra e venda, e o preço às vezes volta para negociar nessa faixa.</strong> Muitos FVGs são preenchidos, mas nem todos, e preencher não significa que o preço vai reverter.</p></div>
+            <p>Quando o preço anda devagar, cada candle se sobrepõe ao anterior e ao seguinte: compradores e vendedores negociam em praticamente toda a faixa. Num movimento brusco, isso não acontece. Um candle grande pode deixar para trás uma faixa de preço em que só um lado agiu. O conceito de fair value gap, popularizado nos últimos anos por traders que estudam a estrutura do preço, dá nome e regra para encontrar essas faixas.</p>
+<p>Neste guia usamos as cotações diárias reais do ether (ETH/USDT na Binance) entre junho e outubro de 2026. Escolhemos uma criptomoeda porque ela negocia 24 horas por dia, sem gaps de abertura, o que deixa o padrão de três candles mais limpo.</p>
+<h2 id="o-que-e-um-fair-value-gap">O que é um fair value gap</h2>
+<p>Um FVG é formado por três candles consecutivos:</p>
+<ul class="check-list">
+<li><strong>FVG de alta:</strong> a mínima do terceiro candle fica acima da máxima do primeiro. A faixa entre as duas é o FVG, e o candle do meio é um candle forte de alta que a atravessou.</li>
+<li><strong>FVG de baixa:</strong> a máxima do terceiro candle fica abaixo da mínima do primeiro. A faixa entre as duas é o FVG, e o candle do meio é um candle forte de baixa.</li>
+</ul>
+<p>A diferença para um gap comum é que, no FVG, os candles vizinhos podem até se tocar: o que não se toca são os pavios do primeiro e do terceiro. Por isso o FVG aparece também em mercados que funcionam sem parar.</p>
+<p>Diz-se que o FVG foi tocado quando o preço volta a entrar na faixa, e preenchido quando a atravessa por inteiro.</p>
+<figure class="ap__ilustra"><img src="/assets/img/blog/ind-03.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="como-identificar-um-fvg-passo-a-passo">Como identificar um FVG passo a passo</h2>
+<p>Veja o caso do ether em agosto de 2026:</p>
+<ul class="check-list">
+<li><strong>Primeiro candle, 18/08:</strong> máxima de US$ 1.923,27.</li>
+<li><strong>Candle do meio, 19/08:</strong> abriu a US$ 1.917,85 e fechou a US$ 2.252,80, uma alta de 17,5% num só dia.</li>
+<li><strong>Terceiro candle, 20/08:</strong> mínima de US$ 2.221,54.</li>
+<li>Como 2.221,54 é maior que 1.923,27, existe um FVG de alta entre US$ 1.923,27 e US$ 2.221,54, uma faixa de US$ 298,27.</li>
+</ul>
+<p>Na prática, só se confirma o FVG no fechamento do terceiro candle. Antes disso, a mínima do terceiro ainda pode cair e fechar a lacuna.</p>
+<h2 id="exemplo-real-fair-value-gaps-no-ether-em-2026">Exemplo real: fair value gaps no ether em 2026</h2>
+<figure class="ap__grafico"><img src="/assets/graficos/fair-value-gap-o-que-e.svg" alt="Gráfico: ETH/USDT, diário, de 01/06/2026 a 07/10/2026. Dados: Binance. Elaboração própria." width="960" height="540" loading="lazy" decoding="async"><figcaption>Gráfico: ETH/USDT, diário, de 01/06/2026 a 07/10/2026. Dados: Binance. Elaboração própria.</figcaption></figure>
+<p>Entre 01/06 e 07/10, o ETH subiu 28,3%, de US$ 2.006,73 para US$ 2.574,14, com mínima de US$ 1.505,68 em 06/06 e máxima de US$ 2.807,34 em 21/09. Contando todos os FVGs do gráfico diário nesse período, de qualquer tamanho, encontramos 28. Até 07/10, o preço voltou a entrar em 25 deles e atravessou por inteiro 24. A maioria era pequena e foi preenchida em poucos dias, como o FVG de alta de 21/09, entre US$ 2.649,89 e US$ 2.715,91, fechado já em 23/09. Quatro casos mostram o que costuma acontecer com os maiores.</p>
+<h3>Junho: um FVG de baixa preenchido sete semanas depois</h3>
+<p>Em 02/06, o ETH caiu de US$ 2.006,73 para US$ 1.859,84. A mínima de 01/06 era US$ 1.956,04 e a máxima de 03/06 foi US$ 1.893,07: nasceu um FVG de baixa entre esses dois valores. O preço continuou caindo até a mínima de 06/06 e só voltou à faixa em 14/07, quando a máxima do dia chegou a US$ 1.896,14. O preenchimento completo veio em 22/07, com máxima de US$ 1.956,45. O FVG foi preenchido, mas não funcionou como resistência: em 19/08 o ETH já fechava acima de US$ 2.200.</p>
+<h3>Julho: um FVG que nunca foi tocado</h3>
+<p>Em 02/07, um candle de alta deixou um FVG entre US$ 1.646,26 (máxima de 01/07) e US$ 1.694,72 (mínima de 03/07). O ponto mais baixo depois disso foi US$ 1.713,44, em 08/07, cerca de US$ 19 acima da faixa. Quem esperava o preço voltar para comprar no FVG ficou de fora.</p>
+<h3>Agosto: o FVG gigante que ficou para trás</h3>
+<p>O FVG de 19/08, entre US$ 1.923,27 e US$ 2.221,54, também não foi tocado. Depois de 20/08, a menor mínima do ETH até 07/10 foi US$ 2.324,99, mais de US$ 100 acima do topo da faixa. Um FVG deixado por um movimento tão forte pode ficar para trás por muito tempo, ou para sempre.</p>
+<h3>Setembro: preenchimento parcial</h3>
+<p>Em 18/09 o ETH fechou a US$ 2.612,14, deixando um FVG entre US$ 2.483,74 (máxima de 17/09) e US$ 2.602,94 (mínima de 19/09). O preço entrou na faixa já em 20/09, com mínima de US$ 2.564,33, e em 07/10 chegou a US$ 2.538,06, cobrindo pouco mais da metade dela. Até essa data, o FVG não tinha sido preenchido por inteiro.</p>
+<figure class="ap__ilustra"><img src="/assets/img/blog/ind-04.webp" alt="" width="1280" height="720" loading="lazy" decoding="async"></figure><h2 id="como-usar-o-fair-value-gap">Como usar o fair value gap</h2>
+<h3>Zona de interesse, não sinal</h3>
+<p>O uso mais comum é tratar o FVG como uma região onde vale observar o preço. Num FVG de alta dentro de uma tendência de alta, alguns traders esperam o recuo até a faixa e procuram um sinal de rejeição, como um candle de reversão, antes de agir.</p>
+<h3>Tamanho e contexto</h3>
+<p>FVGs pequenos aparecem o tempo todo e são preenchidos em poucos candles; dizem pouco. Os mais relevantes são os deixados por movimentos que romperam uma resistência ou um suporte importante, no gráfico diário ou semanal.</p>
+<h3>Metade da faixa</h3>
+<p>Muitos traders marcam o meio do FVG e observam se o preço respeita esse ponto no retorno. É uma referência, não uma regra.</p>
+<h3>Limitações</h3>
+<p>O FVG não tem uma base estatística que garanta o preenchimento; nos nossos dados, o maior de todos, o de agosto, nem chegou a ser tocado. A contagem depende do timeframe: um FVG no gráfico de 1 hora pode nem existir no diário. E o conceito vale para mercados de qualquer tipo, mas em ações e índices os gaps de abertura misturam-se aos FVGs e mudam a leitura.</p>
+<h2 id="erros-comuns-ao-usar-o-fair-value-gap">Erros comuns ao usar o fair value gap</h2>
+<ul class="check-list">
+<li>Achar que todo FVG será preenchido e operar contra a tendência esperando o retorno.</li>
+<li>Marcar todos os FVGs de todos os timeframes até o gráfico ficar ilegível.</li>
+<li>Confirmar o FVG antes do fechamento do terceiro candle.</li>
+<li>Entrar no toque da faixa sem nenhum sinal de reação do preço.</li>
+<li>Colocar o stop exatamente no limite do FVG, onde muitos outros também colocam.</li>
+<li>Tomar os exemplos acima como previsão: eles descrevem o que aconteceu com o ether em 2026.</li>
+</ul>
+<p>Para praticar sem arriscar dinheiro, abra na conta demo o gráfico diário de um ativo que você acompanha, marque os FVGs maiores dos últimos meses e anote quantos foram tocados, quantos foram preenchidos e quanto tempo isso levou. O seu levantamento vai mostrar se o conceito ajuda no ativo e no prazo em que você opera.</p>
+            <div class="bq-post__cta">
+              <p><strong>Pratique antes de arriscar.</strong> Crie sua conta na Astron e teste suas ideias na conta demo com US$ 10.000 virtuais.</p>
+              <a class="btn btn--primary" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Criar conta grátis</a>
+            </div>
+            <div class="ap__fim">
+              <p>Atualizado em: <time datetime="2026-10-09">9 de out. de 2026</time></p>
+              <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visualizações</span></span><button class="ap__compartilhar" type="button">Compartilhar <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+            </div>
+            <div class="ap__autorbox">
+              <span class="ap__avatar ap__avatar--g" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="48" height="48"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span>
+              <div><strong>Redação de Análise</strong><p>Explica gráficos, indicadores e estratégias de operação: como funcionam, onde falham e como testar antes de usar.</p></div>
+            </div>
+            <div class="ap__avaliar" data-votos="{m} de 5 · {n} avaliações" data-voto1="1 avaliação" data-obrigado="Obrigado pela sua avaliação!" data-sem="Seja o primeiro a avaliar.">
+              <p class="ap__avaliar-tit">Este artigo foi útil?</p>
+              <div class="ap__estrelas" role="radiogroup" aria-label="Este artigo foi útil?"><button type="button" role="radio" aria-checked="false" data-voto="1" aria-label="1/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="2" aria-label="2/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="3" aria-label="3/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="4" aria-label="4/5">★</button><button type="button" role="radio" aria-checked="false" data-voto="5" aria-label="5/5">★</button></div>
+              <p class="ap__avaliar-info" aria-live="polite">Seja o primeiro a avaliar.</p>
+            </div>
+            <section class="ap__coment" data-anonimo="Anônimo" data-enviado="Recebemos seu comentário. Ele aparece aqui depois de aprovado pela equipe." data-erro="Não foi possível enviar agora. Tente de novo em instantes." data-vazio="Ainda não há comentários. Seja o primeiro a comentar." data-idioma="pt-BR">
+              <h2>Comentários</h2>
+              <ol class="ap__coment-lista"><li class="ap__coment-vazio">Ainda não há comentários. Seja o primeiro a comentar.</li></ol>
+              <form class="ap__coment-form">
+                <p class="ap__coment-tit">Deixe seu comentário</p>
+                <input name="nome" type="text" maxlength="60" placeholder="Seu nome (opcional)" aria-label="Seu nome (opcional)" autocomplete="name">
+                <textarea name="texto" maxlength="2000" rows="4" required placeholder="Seu comentário" aria-label="Seu comentário"></textarea>
+                <input name="site_url" type="text" tabindex="-1" autocomplete="off" class="ap__isca" aria-hidden="true">
+                <button class="btn btn--primary" type="submit">Enviar comentário</button>
+                <p class="ap__coment-msg" aria-live="polite"></p>
+              </form>
+            </section>
+          </div>
+        </div>
+        <aside class="ap__rel">
+          <h2>Artigos relacionados</h2>
+          <div class="bq__grade bq__grade--3">
+            <a class="bq__card" href="/blog/candle-marubozu-o-que-significa/"><img src="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp" srcset="/assets/img/mini/capas/blog-analise-tecnica-e-fundamentalista.webp 480w, /assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Candle marubozu: o que significa o candle sem sombra</span><span class="bq__meta">09/10/2026 · 5 min de leitura</span></a>
+            <a class="bq__card" href="/blog/confluencia-no-trading/"><img src="/assets/img/mini/astron-corretora-02.webp" srcset="/assets/img/mini/astron-corretora-02.webp 480w, /assets/img/astron-corretora-02.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Confluência no trading: o que é e por que vários sinais no mesmo nível importam</span><span class="bq__meta">09/10/2026 · 5 min de leitura</span></a>
+            <a class="bq__card" href="/blog/grafico-renko-o-que-e/"><img src="/assets/img/mini/astron-corretora-04.webp" srcset="/assets/img/mini/astron-corretora-04.webp 480w, /assets/img/astron-corretora-04.webp 1024w" sizes="(max-width: 47.99rem) 30vw, 360px" alt="" width="480" height="240" loading="lazy" decoding="async"><span class="bq__titulo">Gráfico Renko: o que é, como funciona e como escolher o tamanho do tijolo</span><span class="bq__meta">09/10/2026 · 5 min de leitura</span></a>
+          </div>
+        </aside>
+      </div>
+      <section class="ap-lp" aria-labelledby="ap-lp-tit">
+        <div class="container ap-lp__dentro">
+          <h2 id="ap-lp-tit">Pronto para colocar em prática?</h2>
+          <p class="ap-lp__sub">Abra sua conta e treine na conta demo com US$ 10.000 virtuais, sem arriscar dinheiro.</p>
+          <div class="ap-lp__botoes">
+            <a class="btn btn--primary" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Criar conta</a>
+            <a class="btn ap-lp__demo" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Testar a demo</a>
+          </div>
+          <ul class="ap-lp__selos">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Plataforma segura</strong><span>Login protegido e verificação de identidade</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0 1 16 0v1" fill="none" stroke="currentColor" stroke-width="2"/><rect x="3" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="17" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/></svg><strong>Suporte em português</strong><span>Atendimento todos os dias</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18 9.5 12l4 3.5L20 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><strong>Conta demo grátis</strong><span>US$ 10.000 virtuais para treinar</span></li>
+          </ul>
+          <p class="ap-lp__risco">Operar envolve risco de perda do capital investido.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="site-logo"><span class="wordmark">
+            <img class="wordmark__logo" src="/assets/img/logo-astron.png" alt="Astron" width="158" height="40" decoding="async">
+            <span class="wordmark__text"></span>
+          </span></span>
+          <p class="footer__copy">Direitos autorais © 2026 Astron.<br>
+            Todos os direitos reservados.<br>
+            Site oficial.</p>
+        </div>
+        <div class="footer__nav footer__empresa">
+          <h2>Empresa</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/astron-e-confiavel/">Astron é Confiável?</a></li>
+            <li><a href="/astron-login/">Metódos de Login</a></li>
+            <li><a href="/astron-corretora/">Conheça a Corretora</a></li>
+            <li><a href="/astron-e-seguro/">Segurança da Broker</a></li>
+            <li><a href="/astron-app/">Aplicativo</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav footer__contact">
+          <h2>Contato</h2>
+          <p><a href="mailto:contato@astroncorretora.com.br">contato@astroncorretora.com.br</a></p>
+          <p class="footer__suporte"><span>Gerente de contas 24h/7</span><a href="mailto:suporte@astroncorretora.com.br">suporte@astroncorretora.com.br</a></p>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p>A Astron opera sob registro na Costa Rica (nº de registro 3-102-918450) e pode não ser autorizada pelo regulador financeiro do seu país: verifique antes de abrir conta. Qualquer informação aqui apresentada não deve ser interpretada como uma oferta de serviços financeiros. Não há garantia de que projeções ou estratégias resultem em desempenhos específicos, e o desempenho passado não assegura resultados futuros. A volatilidade dos mercados pode gerar variações significativas nos retornos. Derivativos e produtos alavancados são sofisticados e têm potencial elevado de risco: é essencial estar ciente da possibilidade de perdas, inclusive totais, do capital investido. Nunca invista valores que você não pode perder.</p>
+        <p class="footer__links">
+          <a href="/astron-perguntas-frequentes/">Perguntas frequentes</a>
+          <a href="/contato/">Contato</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <button class="to-top" type="button" aria-label="Voltar ao topo da página">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M12 8l-6 6 1.4 1.4L12 10.8l4.6 4.6L18 14z"/>
+    </svg>
+  </button>
+  <template id="pp-modelo">
+    <div class="pp pp--bonus" role="dialog" aria-modal="true" aria-labelledby="ppTit">
+      <div class="pp__cx" tabindex="-1">
+        <button class="pp__x" type="button" aria-label="Fechar">&#10005;</button>
+        <div class="pp__cont">
+          <h2 id="ppTit"><span class="pp__l1">Bônus</span> <span class="pp__l2">de 100%</span></h2>
+          <p>Deposite com o cupom <strong>WELCOME100</strong> e receba 100% de bônus sobre o valor depositado.</p>
+          <div class="pp__cupom"><span class="pp__cupom-rot">Cupom</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Copiado!">Copiar</button></div>
+          <a class="pp__btn" href="https://trade.astronbroker.com/pt/register?afftrack=astron" target="_blank" rel="noopener sponsored nofollow">Resgatar agora</a>
+          <p class="pp__mini">Sujeito às condições da promoção. Operar produtos alavancados envolve risco de perda.</p>
+        </div>
+        <div class="pp__fig" aria-hidden="true">
+          <picture><source media="(max-width: 799px)" srcset="/assets/img/popup-cofre-mob.webp"><img src="/assets/img/popup-cofre.webp" alt="" width="1034" height="960" loading="lazy" decoding="async"></picture>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="/assets/js/main.js?v=202610092051" defer></script>
+</body>
+</html>
