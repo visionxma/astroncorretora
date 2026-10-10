@@ -412,7 +412,7 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-01.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
@@ -424,16 +424,19 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-seguro-02.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-e-confiavel-02.webp</image:loc>
@@ -445,16 +448,13 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-o-que-e.webp</image:loc>
@@ -466,10 +466,10 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-e-confiavel-03.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-03.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-03.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/ativos/btc.svg</image:loc>
@@ -749,7 +749,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/como-entender-una-cotizacion-de-mercado/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -854,7 +854,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/libros-esenciales-para-traders-principiantes/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -931,14 +931,14 @@
 		<loc>https://astroncorretora.com.br/es/blog/herramientas-de-trading-como-elegir-las-correctas/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://astroncorretora.com.br/es/blog/seguridad-ante-todo-como-evitar-estafas-de-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1148,7 +1148,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/como-operar-conceptos-basicos-para-principiantes/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1204,7 +1204,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/guia-para-principiantes-en-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1351,7 +1351,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/planifica-tu-entrada-al-trading-este-ano/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1365,7 +1365,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/criptomonedas-rumores-hype-y-estrategia-real/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-mercado-cripto-sem-indice-de-referencia.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1442,14 +1442,14 @@
 		<loc>https://astroncorretora.com.br/es/blog/que-es-el-spread-y-como-afecta-tus-operaciones/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://astroncorretora.com.br/es/blog/labubu-coin-que-es-el-fenomeno-de-las-monedas-meme/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1491,7 +1491,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/que-es-el-day-trade-y-para-quien-sirve/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1582,7 +1582,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/que-es-una-senal-de-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1659,7 +1659,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/que-es-una-orden-stop-limit/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1687,7 +1687,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/cuando-se-minara-todo-el-bitcoin/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-mercado-cripto-sem-indice-de-referencia.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1708,7 +1708,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/cuenta-demo-como-usar/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1736,14 +1736,14 @@
 		<loc>https://astroncorretora.com.br/es/blog/como-empezar-a-operar-con-poco-dinero/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://astroncorretora.com.br/es/blog/guia-completa-de-criptomonedas/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-mercado-cripto-sem-indice-de-referencia.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1946,7 +1946,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/terminos-del-mercado-de-acciones-para-principiantes/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2212,7 +2212,7 @@
 		<loc>https://astroncorretora.com.br/es/blog/lecciones-de-peter-lynch-y-jesse-livermore/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>

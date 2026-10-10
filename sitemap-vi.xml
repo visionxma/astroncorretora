@@ -412,7 +412,7 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-01.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
@@ -424,16 +424,19 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-seguro-02.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-e-confiavel-02.webp</image:loc>
@@ -445,16 +448,13 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-o-que-e.webp</image:loc>
@@ -466,10 +466,10 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-e-confiavel-03.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-03.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-03.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/ativos/btc.svg</image:loc>
@@ -749,7 +749,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/cach-hieu-mot-bao-gia-thi-truong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -854,7 +854,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/nhung-cuon-sach-can-doc-cho-nguoi-moi-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -931,14 +931,14 @@
 		<loc>https://astroncorretora.com.br/vi/blog/cong-cu-giao-dich-cach-chon-dung-cong-cu/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://astroncorretora.com.br/vi/blog/an-toan-la-tren-het-cach-tranh-lua-dao-trong-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1148,7 +1148,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/cach-giao-dich-khai-niem-co-ban-cho-nguoi-moi/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1204,7 +1204,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/trading-cho-nguoi-moi-bat-dau-nhung-buoc-dau-tien/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1351,7 +1351,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/lap-ke-hoach-bat-dau-giao-dich-trong-nam-nay/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1365,7 +1365,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/tien-dien-tu-phan-biet-tin-don-va-su-that-de-giao-dich/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-mercado-cripto-sem-indice-de-referencia.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1442,14 +1442,14 @@
 		<loc>https://astroncorretora.com.br/vi/blog/spread-trong-giao-dich-la-gi-va-vi-sao-no-an-loi-nhuan/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://astroncorretora.com.br/vi/blog/labubu-coin-hien-tuong-dong-meme/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1491,7 +1491,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/day-trade-la-gi-va-phu-hop-voi-ai/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1582,7 +1582,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/tin-hieu-giao-dich-la-gi-va-cach-dien-giai/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1659,7 +1659,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/lenh-stop-limit-la-gi-va-khi-nao-nen-dung/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1687,7 +1687,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/khi-nao-toan-bo-bitcoin-se-duoc-dao-xong/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-mercado-cripto-sem-indice-de-referencia.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1708,7 +1708,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/tai-khoan-demo-cach-su-dung-de-hoc-giao-dich-khong-rui-ro/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1736,14 +1736,14 @@
 		<loc>https://astroncorretora.com.br/vi/blog/cach-bat-dau-giao-dich-voi-so-von-nho-nam-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://astroncorretora.com.br/vi/blog/huong-dan-day-du-giao-dich-tien-dien-tu/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-mercado-cripto-sem-indice-de-referencia.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1946,7 +1946,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/thuat-ngu-thi-truong-chung-khoan-cho-nguoi-moi/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2212,7 +2212,7 @@
 		<loc>https://astroncorretora.com.br/vi/blog/hoc-duoc-gi-tu-peter-lynch-va-jesse-livermore/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-abrir-conta.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
