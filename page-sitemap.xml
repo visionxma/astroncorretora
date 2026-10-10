@@ -358,7 +358,13 @@
 		<xhtml:link rel="alternate" hreflang="zh-CN" href="https://astroncorretora.com.br/zh/blog/"/>
 		<xhtml:link rel="alternate" hreflang="x-default" href="https://astroncorretora.com.br/en/blog/"/>
 		<image:image>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-03.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
@@ -373,13 +379,10 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-02.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-03.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-04.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
@@ -409,6 +412,9 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 		<image:image>
@@ -419,12 +425,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-vale-a-pena.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-corretora-04.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-04.webp</image:loc>
@@ -439,6 +439,9 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-e-confiavel-02.webp</image:loc>
 		</image:image>
 		<image:image>
@@ -448,7 +451,7 @@
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-app-03.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/astron-e-confiavel-03.webp</image:loc>
@@ -467,9 +470,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/capas/noticia-uniswap-cai-11-futuros-cme.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://astroncorretora.com.br/assets/img/astron-login-01.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://astroncorretora.com.br/assets/img/ativos/btc.svg</image:loc>
