@@ -1,0 +1,25 @@
+{
+  "pauta": "amazon-em-2026-maxima-de-agosto",
+  "slug": "amazon-em-2026-maxima-de-agosto",
+  "tipo": "noticia",
+  "titulo": "Amazon em 2026: da máxima de agosto ao recuo de setembro",
+  "descricao": "A AMZN tocou US$ 287,20 em 03/08/2026, recorde da série, caiu 4% em setembro e fechou 07/10 a US$ 259,92, de volta acima da média de 50 dias.",
+  "categoria": "Notícias",
+  "data": "2026-10-09",
+  "revisado": "2026-10-09",
+  "resposta": "A ação da Amazon (AMZN) tocou US$ 287,20 em 03/08/2026, a cotação mais alta da série, e fechou o dia a US$ 284,02. Depois recuou 4,3% em agosto e 4,1% em setembro, com mínima de US$ 244,30 em 16/09, e fechou 07/10 a US$ 259,92: alta de 12,6% no ano e 8,5% abaixo do topo.",
+  "leitura": 3,
+  "grafico": {
+    "ativo": "AMZN",
+    "fonte": "yahoo",
+    "indicador": "sma",
+    "inicio": "2026-01-01",
+    "fim": "2026-10-07",
+    "params": {
+      "periodos": [
+        50
+      ]
+    }
+  },
+  "corpo": "<p>A Amazon viveu em 2026 um ano de degraus: quedas fortes no começo do ano, uma recuperação rápida em abril, nova queda em junho e um salto no fim de julho que levou a ação ao maior preço da sua história. Desde então, o papel devolveu parte da alta. Os números abaixo são as cotações diárias do Yahoo Finance, do fechamento de 31/12/2025 ao de 07/10/2026.</p>\n<h2>O caminho até a máxima</h2>\n<p>A AMZN fechou 2025 a US$ 230,82. Depois de subir 3,7% em janeiro, caiu 12,2% em fevereiro e fez a mínima do ano em 17/02, a US$ 196,00 no intradiário; o menor fechamento tinha saído em 13/02, a US$ 198,79. Março ficou estável e abril trouxe a primeira grande alta: 27,3% no mês, até US$ 265,06.</p>\n<p>Junho devolveu boa parte disso, com queda de 11,9%, e a ação passou o mês e a primeira metade de julho abaixo da média móvel de 50 dias. A virada veio em 31/07, o maior pregão do ano: alta de 15,3%, de US$ 235,50 para US$ 271,58. No pregão seguinte, 03/08, a ação subiu mais 4,6%, tocou US$ 287,20 e fechou a US$ 284,02, os dois maiores valores da série de cinco anos. O recorde anterior era de US$ 258,60, em 03/11/2025.</p>\n<h2>O recuo de agosto e setembro</h2>\n<p>A máxima não se sustentou. Em 05/08 a ação ainda chegou a US$ 282,79 durante o pregão e, em 10/08, fechou a US$ 278,09, mas depois passou a cair em ondas. Agosto terminou a US$ 259,77, queda de 4,3% no mês. Setembro somou outra queda, de 4,1%, até US$ 249,15.</p>\n<p>O ponto mais baixo do recuo foi 16/09: mínima de US$ 244,30 e fechamento de US$ 245,96, 13,4% abaixo do fechamento recorde de 03/08. Nesse nível a ação ainda estava acima de onde se encontrava antes do salto de 31/07, ou seja, o recuo devolveu uma parte da alta, não a alta inteira.</p>\n<p>Outubro começou com recuperação. Em 07/10 a AMZN subiu 1,4%, de US$ 256,29 para US$ 259,92, 5,7% acima do fechamento de 16/09. No ano, o saldo é de alta de 12,6%.</p>\n<h2>O que o gráfico mostra</h2>\n<!--grafico-->\n<p>O gráfico traz as velas diárias de 2026 e a média móvel simples de 50 dias, em azul. Ela ajuda a ler as fases do ano:</p>\n<ul class=\"check-list\">\n<li><strong>Fevereiro a início de abril:</strong> preço abaixo da média, que apontava para baixo. A ação só voltou a fechar acima dela em 08/04.</li>\n<li><strong>Junho a meados de julho:</strong> de novo abaixo da média, desde 05/06. O salto de 31/07 levou o preço de baixo para muito acima dela num único dia.</li>\n<li><strong>Setembro:</strong> a média de 50 dias alcançou o preço. Entre 09/09 e 22/09 a ação cruzou a média cinco vezes, para cima e para baixo, um sinal de mercado indeciso.</li>\n<li><strong>07/10:</strong> o fechamento de US$ 259,92 voltou a ficar acima da média, que estava em US$ 258,01. A diferença é pequena, de 0,7%.</li>\n</ul>\n<p>Um preço tão perto da média, depois de várias travessias, diz pouco sobre a direção seguinte. O que o gráfico mostra é um papel que saiu de uma tendência clara de alta no começo de agosto para uma fase de lateralidade entre US$ 244 e US$ 268 desde o fim de agosto.</p>\n<h2>Referências do gráfico</h2>\n<p>Os níveis que o próprio preço desenhou em 2026 são a máxima de US$ 287,20, a região de US$ 278 a US$ 283 do começo de agosto, o fundo de setembro, perto de US$ 244, e a média de 50 dias, perto de US$ 258. Eles mostram onde a ação já reagiu; não indicam para onde vai.</p>\n<p>Vale lembrar que o salto de 31/07 aconteceu de um dia para o outro: quem estava vendido ou com stop curto não teve chance de sair no meio do caminho. Movimentos assim são comuns perto de divulgações de resultados, e a temporada do terceiro trimestre está próxima; confira a data na página de relações com investidores da empresa.</p>\n<p>Os números descrevem o que aconteceu até 07/10/2026. Para estudar o papel sem arriscar dinheiro, abra o gráfico diário da AMZN na conta demo com a média de 50 dias e registre o que o preço fez nos dias seguintes a cada cruzamento.</p>"
+}

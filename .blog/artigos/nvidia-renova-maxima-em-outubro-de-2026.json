@@ -1,0 +1,26 @@
+{
+  "pauta": "nvidia-renova-maxima-em-outubro-de-2026",
+  "slug": "nvidia-renova-maxima-em-outubro-de-2026",
+  "tipo": "noticia",
+  "titulo": "Nvidia renova máxima em outubro de 2026 e acumula 27% no ano",
+  "descricao": "A NVDA tocou US$ 243,37 em 06/10/2026, recorde da série, e fechou 07/10 com alta de 27% no ano. Da mínima de março às médias de 50 e 200 dias.",
+  "categoria": "Notícias",
+  "data": "2026-10-09",
+  "revisado": "2026-10-09",
+  "resposta": "A ação da Nvidia (NVDA) tocou US$ 243,37 em 06/10/2026, a cotação mais alta da série, e fechou o dia a US$ 239,24, o maior fechamento do ano. Em 07/10 terminou a US$ 237,47, alta de 27,3% em 2026 e de 43,8% sobre a mínima de 30/03, acima das médias de 50 e de 200 dias.",
+  "leitura": 4,
+  "grafico": {
+    "ativo": "NVDA",
+    "fonte": "yahoo",
+    "indicador": "sma",
+    "inicio": "2026-01-01",
+    "fim": "2026-10-07",
+    "params": {
+      "periodos": [
+        50,
+        200
+      ]
+    }
+  },
+  "corpo": "<p>A Nvidia chegou a outubro de 2026 no ponto mais alto de sua história na bolsa. Em 06/10 a ação tocou US$ 243,37 durante o pregão, acima do pico anterior de US$ 236,54, de 14/05, e bem acima dos US$ 212,19 de 29/10/2025, a máxima de 2025. Os números desta notícia são as cotações diárias do Yahoo Finance, ajustadas por desdobramentos, até o fechamento de 07/10/2026.</p>\n<h2>Da mínima de março ao recorde</h2>\n<p>O ano não começou bem. A NVDA fechou 2025 a US$ 186,50, ganhou 2,5% em janeiro e depois recuou em fevereiro (menos 7,3%) e março (menos 1,6%). O fundo veio em 30/03, com mínima de US$ 164,27 e fechamento a US$ 165,17, 11,4% abaixo do fim de 2025.</p>\n<p>Abril virou o jogo: alta de 14,4% no mês, seguida de mais 5,8% em maio. Em 14/05 a ação fechou a US$ 235,74, o primeiro topo do ano. O que veio depois foi uma correção de dois meses e meio: em 29/07 o fechamento foi de US$ 190,01, 19,4% abaixo do topo de maio. No caminho, 05/06 trouxe a maior queda diária do ano, de 6,2%, de US$ 218,66 para US$ 205,10.</p>\n<p>A retomada começou em agosto, com alta de 10,0% no mês. O maior pregão de 2026 foi 27/08: subida de 8,7%, de US$ 209,66 para US$ 227,98. Setembro somou mais 3,4%, até US$ 228,38, e os primeiros dias de outubro levaram a ação ao recorde. Em 07/10 houve um recuo de 0,7%, para US$ 237,47.</p>\n<ul class=\"check-list\">\n<li><strong>Fechamento de 2025:</strong> US$ 186,50.</li>\n<li><strong>Mínima de 2026:</strong> US$ 164,27, em 30/03 (fechamento de US$ 165,17).</li>\n<li><strong>Máxima de 2026 e da série:</strong> US$ 243,37, em 06/10 (fechamento de US$ 239,24).</li>\n<li><strong>Fechamento de 07/10:</strong> US$ 237,47, alta de 27,3% no ano e de 43,8% desde 30/03.</li>\n</ul>\n<h2>O que o gráfico mostra</h2>\n<!--grafico-->\n<p>O gráfico traz as velas diárias de 2026 com a média móvel simples de 50 dias (azul) e a de 200 dias (laranja). Em 07/10, a média de 50 dias estava em US$ 220,58 e a de 200 dias, em US$ 201,68. O preço fechou 7,7% acima da primeira e 17,7% acima da segunda.</p>\n<p>Três leituras saem do gráfico. A primeira: a média de 50 dias ficou acima da de 200 o ano inteiro, sem nenhum cruzamento para baixo, mesmo na queda de março e na correção de junho e julho. Nessas fases, a média de 50 dias achatou, mas a tendência de prazo mais longo seguiu de alta.</p>\n<p>A segunda: o preço passou boa parte de junho e julho cruzando a média de 50 dias para cima e para baixo, sinal de mercado sem direção. Só em 03/08 voltou a fechar acima dela de forma mais firme, e desde 16/09 não fechou mais abaixo.</p>\n<p>A terceira: em 14/05, dia do topo de maio, o preço fechou 22,6% acima da média de 50 dias, e depois veio a correção de 19%. Agora, no recorde, a distância é de 7,7%, bem menor: a alta de agosto a outubro foi mais gradual. Isso não diz se haverá ou não outra correção; mostra apenas que a ação está menos esticada do que estava em maio.</p>\n<h2>Recorde, mas atrás de outros chips</h2>\n<p>Mesmo com a máxima histórica, a alta de 27,3% da NVDA em 2026 ficou atrás de boa parte do setor. No mesmo período, o ETF de semicondutores SMH subiu 73,6%, a AMD 201,6%, a Micron 281,2% e a Intel 206,6%. A Nvidia, que liderou o setor nos anos anteriores, foi neste ano um dos papéis mais contidos entre os grandes nomes de chips.</p>\n<p>Os dados de preço não explicam o porquê dessa diferença, e não há aqui uma fonte que atribua uma causa. O que eles mostram é que, em 2026, a alta do setor foi mais espalhada do que concentrada em um único nome.</p>\n<h2>O que acompanhar</h2>\n<p>As referências objetivas do gráfico são a máxima de US$ 243,37, a região de US$ 235 a US$ 236 do topo de maio, a média de 50 dias, perto de US$ 220, e a de 200 dias, perto de US$ 202. Rompimento de máxima histórica não tem resistência anterior acima, o que torna o movimento mais difícil de medir; recuos até a média de 50 dias foram comuns em 2026.</p>\n<p>Os movimentos descritos mostram o que aconteceu, não o que vai acontecer. Se quiser estudar o comportamento da NVDA perto de máximas, abra o gráfico diário na conta demo, adicione as médias de 50 e 200 dias e anote como o preço reagiu a cada toque na média mais curta.</p>"
+}
